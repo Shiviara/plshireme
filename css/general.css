@@ -70,6 +70,12 @@ a:hover {
 }
 
 /*ELEMENTS*/
+.waves {
+  width: 100vw;
+  height: auto;
+  object-fit: cover;
+}
+
 /*icons*/
 .material-symbols-outlined {
   color: var(--bottle);
