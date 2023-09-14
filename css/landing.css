@@ -1,0 +1,89 @@
+:root {
+  --bottle: #004643;
+  --salmon: #fb6d69;
+  --truewhite: #ffffff;
+  --textblack: #101010;
+}
+
+/*SECTIONS*/
+/*Hero section*/
+#hero {
+  background-color: var(--bottle);
+  height: 700px;
+}
+
+#hero p,
+#hero h3 {
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+  color: var(--truewhite);
+}
+/*Get to know me*/
+#me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/img/cats1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Personal projects*/
+#personal {
+  background-color: var(--bottle);
+}
+
+#personal p,
+#personal h2,
+#personal h3,
+#personal .material-symbols-outlined {
+  color: var(--truewhite);
+}
+
+/*Last cta*/
+#lastcta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lastcta p,
+#lastcta h3 {
+  color: var(--salmon);
+  margin-top: 0;
+}
+
+/*ELEMENTS*/
+
+/*Project show case*/
+.project {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cases {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+}
+
+.description {
+  display: flex;
+  width: 550px;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.mock-up {
+  filter: drop-shadow(-15px 20px 0px #fb6d69);
+}
+
+.info p {
+  font-size: 20px;
+}
