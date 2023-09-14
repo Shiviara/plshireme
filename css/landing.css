@@ -71,6 +71,13 @@
   margin: 0;
 }
 
+#skills #tools {
+  color: var(--salmon);
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 70px;
+}
+
 /*Get to know me*/
 #me {
   display: flex;
