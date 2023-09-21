@@ -4,3 +4,30 @@
   --truewhite: #ffffff;
   --textblack: #101010;
 }
+
+.profilepic {
+  border-radius: 200px;
+  border: 10px solid var(--salmon);
+}
+
+#hero {
+  padding-bottom: 50px;
+}
+
+#banner {
+  display: flex;
+  width: 1160px;
+  align-items: flex-start;
+  gap: 80px;
+}
+
+#heroText {
+  display: flex;
+  flex-direction: column;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
