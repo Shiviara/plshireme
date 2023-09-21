@@ -142,6 +142,10 @@ button:hover {
   color: var(--truewhite);
 }
 
+.navbar button:hover {
+  background-color: var(--bottle);
+}
+
 /*SECTIONS*/
 /*navigation bar*/
 .navbar {
@@ -173,7 +177,7 @@ button:hover {
 
 .navbar .tertiary-cta {
   margin: 0;
-  display: flex;
+  /*display: flex;
   padding: 10px 24px;
   justify-content: center;
   align-items: center;
@@ -184,7 +188,7 @@ button:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.1px;*/
 }
 
 #navR {
