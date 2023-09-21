@@ -3,7 +3,9 @@
   --salmon: #fb6d69;
   --truewhite: #ffffff;
   --textblack: #101010;
+  --sage: #ccdad9;
 }
+/*PROFESSIONAL*/
 
 .profilepic {
   border-radius: 200px;
@@ -11,14 +13,17 @@
 }
 
 #hero {
-  padding-bottom: 50px;
+  /*display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;*/
 }
 
 #banner {
   display: flex;
-  width: 1160px;
   align-items: flex-start;
-  gap: 80px;
+  justify-content: space-between;
+  gap: 20px;
 }
 
 #heroText {
@@ -30,4 +35,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+/*PERSONAL*/
+#personal {
+  background-color: var(--sage);
 }

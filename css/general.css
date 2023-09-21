@@ -3,6 +3,7 @@
   --salmon: #fb6d69;
   --truewhite: #ffffff;
   --textblack: #101010;
+  --sage: #ccdad9;
 }
 
 /* TYPOGRATHY */
@@ -55,6 +56,7 @@ p {
   color: var(--bottle);
   font-weight: 400;
   margin: 10px 0;
+  max-width: 700px;
 }
 
 /*links*/
