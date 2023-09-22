@@ -5,6 +5,9 @@
   --textblack: #101010;
   --sage: #ccdad9;
 }
+::selection {
+  background: var(--salmon);
+}
 
 /* TYPOGRATHY */
 
@@ -123,6 +126,7 @@ button:active {
 
 button:hover {
   background-color: #fd9996;
+  cursor: pointer;
 }
 
 .primary-cta {
