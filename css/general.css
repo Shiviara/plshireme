@@ -22,7 +22,7 @@ h5 {
 h1 {
   font-size: 90px;
   color: var(--truewhite);
-  text-shadow: 5px 5px 0px #ff6d6d;
+  text-shadow: 5px 5px 0px var(--salmon);
   line-height: 120%; /* 108px */
   letter-spacing: -2.4px;
   text-transform: uppercase;
@@ -50,7 +50,8 @@ h5 {
 }
 
 /*body text*/
-p {
+p,
+ul {
   font-size: 16px;
   font-family: "Lato", sans-serif;
   color: var(--bottle);
@@ -109,9 +110,9 @@ button {
   letter-spacing: 0.1px;
   margin-top: 40px;
   /*default*/
-  border: 1px solid #fff;
+  border: 1px solid var(--truewhite);
   background: var(--bottle);
-  box-shadow: 5px 5px 0px 0px #fff;
+  box-shadow: 5px 5px 0px 0px var(--truewhite);
   color: var(--truewhite);
 }
 
@@ -125,22 +126,22 @@ button:hover {
 }
 
 .primary-cta {
-  border: 1px solid #fff;
+  border: 1px solid var(--truewhite);
   background: var(--salmon);
-  box-shadow: 5px 5px 0px 0px #fff;
+  box-shadow: 5px 5px 0px 0px var(--truewhite);
   color: var(--truewhite);
 }
 
 .secondary-cta {
-  border: 1px solid #004643;
+  border: 1px solid var(--bottle);
   background: var(--salmon);
-  box-shadow: 5px 5px 0px 0px #004643;
+  box-shadow: 5px 5px 0px 0px var(--bottle);
   color: var(--bottle);
 }
 .tertiary-cta {
-  border: 1px solid #fff;
+  border: 1px solid var(--truewhite);
   background: var(--bottle);
-  box-shadow: 5px 5px 0px 0px #fff;
+  box-shadow: 5px 5px 0px 0px var(--truewhite);
   color: var(--truewhite);
 }
 

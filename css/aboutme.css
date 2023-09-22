@@ -12,12 +12,12 @@
   border: 10px solid var(--salmon);
 }
 
-#hero {
-  /*display: flex;
+/*#hero {
+  display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  align-self: stretch;*/
-}
+  align-self: stretch;
+}*/
 
 #banner {
   display: flex;
@@ -36,6 +36,15 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
 }
 
 /*PERSONAL*/

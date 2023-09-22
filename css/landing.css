@@ -155,7 +155,7 @@
 }
 
 .mock-up {
-  filter: drop-shadow(-15px 20px 0px #fb6d69);
+  filter: drop-shadow(-15px 20px 0px var(--salmon));
   width: 415px;
   height: auto;
 }
