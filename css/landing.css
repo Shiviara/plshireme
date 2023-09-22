@@ -140,6 +140,10 @@
   align-self: stretch;
 }
 
+.project a {
+  text-decoration: none;
+}
+
 .cases {
   display: flex;
   flex-direction: column;
