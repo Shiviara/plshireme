@@ -42,3 +42,49 @@
 #personal {
   background-color: var(--sage);
 }
+
+/*Testimonials*/
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*gap: 70px;*/
+  margin-top: 25px;
+}
+
+#rowBoxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.skillBox {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: var(--bottle);
+}
+
+.skillBox p,
+.skillBox h4 {
+  color: var(--truewhite);
+  margin: 0;
+}
+
+/*width of the text and boxes*/
+.skillBox p {
+  width: 20vw;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.skillBox .person {
+  font-size: 14px;
+  float: left;
+}
