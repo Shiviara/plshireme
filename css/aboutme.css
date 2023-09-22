@@ -1,10 +1,12 @@
 :root {
   --bottle: #004643;
+  --sage: #ccdad9;
   --salmon: #fb6d69;
+  --gum: #fd9996;
   --truewhite: #ffffff;
   --textblack: #101010;
-  --sage: #ccdad9;
 }
+
 /*PROFESSIONAL*/
 
 .profilepic {
@@ -52,6 +54,12 @@ li {
   background-color: var(--sage);
 }
 
+.note {
+  font-size: smaller;
+  color: #0046439c;
+  margin: 0;
+}
+
 /*Testimonials*/
 #testimonials {
   display: flex;
@@ -87,7 +95,6 @@ li {
   margin: 0;
 }
 
-/*width of the text and boxes*/
 .skillBox p {
   font-size: 20px;
   font-style: italic;
