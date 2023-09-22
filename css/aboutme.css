@@ -109,3 +109,33 @@ li {
   font-style: normal;
   float: left;
 }
+
+/*Fun facts*/
+h4 {
+  color: var(--bottle);
+  margin-top: 0;
+}
+
+#funFacts {
+  background-color: var(--sage);
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+  align-items: flex-end;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+#factsText {
+  display: flex;
+  flex-direction: column;
+}
+
+#factsText h3 {
+  margin-bottom: 10px;
+}
+
+#funFacts .cat {
+  height: 180px;
+  width: auto;
+}
