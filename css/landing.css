@@ -1,6 +1,8 @@
 :root {
   --bottle: #004643;
+  --sage: #ccdad9;
   --salmon: #fb6d69;
+  --gum: #fd9996;
   --truewhite: #ffffff;
   --textblack: #101010;
 }
@@ -154,7 +156,7 @@
 }
 
 .mock-up {
-  filter: drop-shadow(-15px 20px 0px #fb6d69);
+  filter: drop-shadow(-15px 20px 0px var(--salmon));
   width: 415px;
   height: auto;
 }
