@@ -7,6 +7,32 @@
   --textblack: #101010;
 }
 
+/*GENERAL*/
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.textImg {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+article img {
+  width: 25vw;
+  height: auto;
+}
+
 /*SECTIONS*/
 
 /*Overview*/
@@ -31,6 +57,19 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+#client {
+  background-color: var(--sage);
+}
+
+#problem {
+  background-color: var(--bottle);
+}
+
+#problem p,
+#problem h3 {
+  color: var(--truewhite);
 }
 
 /**/
