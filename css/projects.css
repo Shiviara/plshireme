@@ -24,10 +24,17 @@
 .infoPoints h5,
 .infoPoints p {
   margin: 0;
+  max-width: 400px;
 }
 
 .category {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+/**/
+#discover,
+#develop {
+  background-color: var(--sage);
 }
