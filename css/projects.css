@@ -6,3 +6,28 @@
   --truewhite: #ffffff;
   --textblack: #101010;
 }
+
+/*SECTIONS*/
+
+/*Overview*/
+#overview h4 {
+  color: var(--salmon);
+}
+
+.infoPoints {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infoPoints h5,
+.infoPoints p {
+  margin: 0;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
