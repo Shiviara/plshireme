@@ -16,6 +16,10 @@ h3 {
   margin-top: 0;
 }
 
+#Figma a {
+  text-decoration: none;
+}
+
 /*Side navigation*/
 
 .sideNav {

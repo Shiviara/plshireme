@@ -40,6 +40,10 @@
   margin: 0;
 }
 
+#hero a {
+  text-decoration: none;
+}
+
 /*Skills*/
 #skills {
   display: flex;
