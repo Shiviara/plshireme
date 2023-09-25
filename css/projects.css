@@ -33,6 +33,7 @@ h3 {
 article img {
   width: 25vw;
   height: auto;
+  object-fit: contain;
 }
 
 .imgRow {
@@ -93,4 +94,15 @@ article img {
 #discover,
 #develop {
   background-color: var(--sage);
+}
+
+/*hmw*/
+
+#hmw img {
+  /*max-width: 500px;*/
+  width: 30vw;
+}
+
+#goals {
+  margin-bottom: 25px;
 }
