@@ -36,7 +36,8 @@ article img {
   object-fit: contain;
 }
 
-.imgRow {
+.Twopics,
+.Threepics {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -46,9 +47,14 @@ article img {
   margin-top: 50px;
 }
 
-.imgRow img {
+.Twopics img {
   width: 33vw;
   height: auto;
+}
+
+.Threepics img {
+  height: 20vw;
+  width: auto;
 }
 
 /*SECTIONS*/
@@ -90,7 +96,7 @@ article img {
   color: var(--truewhite);
 }
 
-/**/
+/*background change*/
 #discover,
 #develop {
   background-color: var(--sage);
@@ -105,4 +111,14 @@ article img {
 
 #goals {
   margin-bottom: 25px;
+}
+
+/*Low-fi*/
+
+#lowFi {
+  margin-top: 50px;
+}
+
+#lowFi .Threepics {
+  margin: 0;
 }
