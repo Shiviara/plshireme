@@ -16,6 +16,8 @@ h3 {
   margin-top: 0;
 }
 
+/*Layout options*/
+
 .textImg {
   display: flex;
   flex-direction: row;
@@ -30,6 +32,21 @@ h3 {
 
 article img {
   width: 25vw;
+  height: auto;
+}
+
+.imgRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.imgRow img {
+  width: 33vw;
   height: auto;
 }
 
