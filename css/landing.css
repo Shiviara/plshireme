@@ -40,6 +40,10 @@
   margin: 0;
 }
 
+#hero a {
+  text-decoration: none;
+}
+
 /*Skills*/
 #skills {
   display: flex;
@@ -51,7 +55,7 @@
 #rowBoxes {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 25px;
 }
 
@@ -89,6 +93,7 @@
   background-color: var(--salmon);
   padding: 15px;
   border-radius: 100px;
+  font-size: 30px;
 }
 
 /*Get to know me*/

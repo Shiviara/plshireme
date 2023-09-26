@@ -16,13 +16,9 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    </div>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+  </div>
     <!-- my stylesheets -->
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/landing.css" />
@@ -52,7 +48,7 @@
         <p>Hi, I'm <span style="color: var(--salmon)">Marta</span></p>
         <h1>ux / ui designer</h1>
         <h3>who creates memorable experiences that are more than basic</h3>
-        <button class="primary-cta">See about me</button>
+        <a href="aboutme.html"><button class="primary-cta">About me</button></a>
         </div>
         <img src="/img/herophoto.png" alt="Picture of Marta with the doodle cat on the side smiling">
         </div>
@@ -60,32 +56,35 @@
       <img src="/img/whiteWave.svg" id="whiteWave" class="waves">
 
       <section id="skills">
+        <div style="display: flex; align-items: flex-start; flex-direction: column;" >
         <h2>What do I do?</h2>
 
         <div id="rowBoxes">
         <!--Box 1-->
         <div class="skillBox">
-          <span class="material-symbols-outlined">laptop_mac</span>
-          <h4>Skill one</h4>
-          <p>Quick elaboration. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+          <span class="material-symbols-outlined">draw</span>
+          <h4>UX/UI design</h4>
+          <p>Design is where I’m in my element. It is the middleman between the users and the stakeholders, that needs to both seamless and aesthetic. A good design is the one that we don’t notice, but also makes us want to return to it.
+          </p>
         </div>
         
         <!--Box 2-->
         <div class="skillBox">
-          <span class="material-symbols-outlined">laptop_mac</span>
-          <h4>Skill one</h4>
-          <p>Quick elaboration. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+          <span class="material-symbols-outlined">sync_saved_locally</span>
+          <h4>Testing</h4>
+          <p>Testing is my (second) favourite part of the process. It brings mistakes into the surface, solves team conflicts and inspires to search for better solutions.
+          </p>
         </div>
         
         <!--Box 3-->
         <div class="skillBox">
-          <span class="material-symbols-outlined">laptop_mac</span>
-          <h4>Skill one</h4>
-          <p>Quick elaboration. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+          <span class="material-symbols-outlined">forum</span>
+          <h4>Communication</h4>
+          <p>I can work independently but I love working in a team. I think that diverse perspectives lead to better outcomes. I support an environment where everyone's voice contributes to creating beautiful and functional solutions.
+          </p>
         </div>
+        </div>
+
         </div>
 
         <p id="tools">Figma | Adobe XD | Photoshop | Illustrator | Wordpress | Html | CSS | JavaScript</p>
@@ -93,11 +92,11 @@
 
       <section id="me">
         <h3>Want to get to know me?</h3>
-        <button class="secondary-cta">See about me</button>
+        <button class="secondary-cta">About me</button>
       </section>
 
       <section id="work">
-        <h2>Case studies</h2>
+        <h2>Work</h2>
         <!--Case studies-->
         <div class="cases">
           <!--The Clothing Club-->
@@ -199,9 +198,9 @@
 
       <section id="lastcta">
         <img src="/img/greenWaveTop.svg" class="waves">
-        <h3>Let's create something great together</h3>
-        <p>Like actual content instead of text holders</p>
-        <button class="secondary-cta">See about me</button>
+        <h3>Do you have an idea brewing? </h3>
+        <p>Let's talk it over some tea</p>
+        <button class="secondary-cta">Contact me</button>
         <img src="/img/greenWaveBottom.svg" class="waves">
       </section>
     </main>
@@ -210,7 +209,7 @@
         <div class="left">
             <h3>Marta Zarebska</h3>
             <div class="iconText">
-                <img src="/img/linkedin.svg" alt="LinkedIn">
+                <a href="https://www.linkedin.com/in/marta-zarebska/" target="_blank"><img src="/img/linkedin.svg" alt="LinkedIn"></a>
                 <span class="material-symbols-outlined"> mail</span>
             <p>martazarebska@plshireme.com</p>
         </div>
@@ -227,7 +226,7 @@
             </div>
 
             <div class="column">
-            <h5>Study cases</h5>
+            <h5>Work</h5>
             <a href="tcc.html">The Clothing Club</a>
           <a href="smukfest.html">Smukfest</a>
           <a href="ecobites.html">EcoBites</a>
