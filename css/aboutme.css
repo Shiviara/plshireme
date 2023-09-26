@@ -135,6 +135,10 @@ h4 {
   margin-bottom: 10px;
 }
 
+#funFacts a {
+  color: var(--bottle);
+}
+
 #funFacts .cat {
   height: 180px;
   width: auto;

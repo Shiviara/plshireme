@@ -11,6 +11,11 @@
   background: var(--gum);
 }
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 /* TYPOGRATHY */
 
 p {
