@@ -19,6 +19,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 5px;
+  margin-top: 50px;
 }
 
 #banner {
@@ -136,6 +137,10 @@
 /*ELEMENTS*/
 
 /*Project show case*/
+.soon {
+  filter: grayscale(100%);
+}
+
 .project {
   display: flex;
   align-items: flex-start;
@@ -145,7 +150,8 @@
   align-self: stretch;
 }
 
-.project a {
+.project a,
+#me a {
   text-decoration: none;
 }
 
