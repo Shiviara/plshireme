@@ -93,6 +93,7 @@
   text-transform: uppercase;
   margin: 0;
   margin-top: 70px;
+  max-width: none;
 }
 
 #skills .material-symbols-outlined {
