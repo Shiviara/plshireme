@@ -219,6 +219,7 @@
   /*Project display*/
   .project {
     gap: 20px;
+    justify-content: center;
   }
 
   .project .mock-up {
@@ -229,7 +230,7 @@
     width: 90vw;
   }
 
-  #smukfest {
+  .mockR {
     flex-direction: column-reverse;
   }
 }
