@@ -1,4 +1,4 @@
-console.log("Adding navigation and footer");
+console.log("Adding footer");
 
 //Universal footer with copyright
 const Footer = `
