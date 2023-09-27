@@ -24,13 +24,13 @@
 
 #banner {
   display: flex;
-  width: 1160px;
+  /*width: 1160px;*/
   align-items: flex-start;
   gap: 80px;
 }
 
 #hero img {
-  width: 20vw;
+  width: 30vw;
   height: auto;
 }
 
