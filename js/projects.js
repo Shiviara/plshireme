@@ -1,6 +1,6 @@
 console.log("Changing color of side nav");
 /*
-//Highlight where you are in toc
+//Highlight where you are in toc by ChatGPT
 const projectsSection = document.getElementById("sideNav");
 const projectsListItem = document.querySelector(
   "#content-list li:nth-child(2)"
@@ -19,7 +19,7 @@ window.addEventListener("scroll", () => {
   }
 });*/
 
-//Color changes when #problem in on screeen
+//Color changes when #problem in on screeen by ChatGPT
 /*const sideNavLinks = document.querySelectorAll(".sideNav a");
 const problemSection = document.getElementById("problem");
 
@@ -34,7 +34,7 @@ window.addEventListener("scroll", () => {
   }
 });*/
 
-//Color changes when on top of #problem
+//Color changes when on top of #problem by ChatGPT
 const sideNavLinks = document.querySelectorAll(".sideNav a");
 const problemSection = document.getElementById("problem");
 
