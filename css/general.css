@@ -165,6 +165,16 @@ button:hover {
 }
 
 /*SECTIONS*/
+
+/*General*/
+body {
+  margin: 0;
+}
+
+section {
+  padding: 100px 12vw;
+}
+
 /*navigation bar*/
 .navbar {
   /*overflow: hidden;*/
@@ -217,13 +227,30 @@ button:hover {
   margin-right: 120px;
 }
 
-/*General*/
-body {
-  margin: 0;
+/*Last cta*/
+#lastcta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
 }
 
-section {
-  padding: 100px 12vw;
+#lastcta p,
+#lastcta h3 {
+  color: var(--salmon);
+  margin-top: 0;
+}
+
+#lastcta p {
+  font-size: 20px;
+}
+
+#lastcta h3 {
+  margin: 10px 0;
+}
+
+#lastcta button {
+  margin-top: 0;
 }
 
 /*Copy email*/
