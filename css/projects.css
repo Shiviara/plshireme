@@ -31,7 +31,7 @@ li {
   z-index: 1;
   right: 0;
   overflow-x: hidden;
-  top: 25vw;
+  top: 45vh;
   /*flex box*/
   display: flex;
   flex-direction: column;
@@ -110,6 +110,8 @@ article img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .infoPoints h5,
@@ -168,4 +170,30 @@ article img {
 
 #testing p {
   max-width: 500px;
+}
+
+@media only screen and (max-width: 900px) {
+  .sideNav {
+    display: none;
+  }
+
+  #overview {
+    padding-top: 100px;
+  }
+
+  .textImg {
+    flex-direction: column;
+  }
+
+  article img,
+  .Twopics img,
+  #hmw img,
+  .Threepics img {
+    width: 85vw;
+    height: auto;
+  }
+
+  iframe {
+    width: 90vw;
+  }
 }
