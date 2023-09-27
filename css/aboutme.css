@@ -158,3 +158,34 @@ h4 {
   color: var(--salmon);
   margin-top: 0;
 }
+
+@media only screen and (max-width: 900px) {
+  /*Hero*/
+  .profilepic {
+    width: 80vw;
+    margin-top: 50px;
+  }
+
+  #banner {
+    flex-direction: column;
+  }
+
+  #heroText {
+    width: auto;
+  }
+
+  /*Testimonials*/
+  #rowBoxes {
+    flex-direction: column;
+  }
+
+  .skillBox {
+    width: 80vw;
+    padding: 20px;
+  }
+
+  /*Fun facts*/
+  #funFacts {
+    flex-direction: column;
+  }
+}
