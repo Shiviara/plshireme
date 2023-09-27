@@ -267,3 +267,63 @@ footer .column {
 footer .material-symbols-outlined {
   color: var(--truewhite);
 }
+
+/*~~~~~~ Mobile version ~~~~~~*/
+@media only screen and (max-width: 900px) {
+  /*TYPOGRAPHY*/
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  /*SECTIONS*/
+  /*General*/
+  section {
+    padding: 50px 20px;
+  }
+
+  /*Nav bar*/
+  #navR {
+    margin-right: 10px;
+  }
+
+  .navbar h5 {
+    margin-left: 10px;
+  }
+
+  /*Hero*/
+  #hero img {
+    display: none;
+  }
+
+  #hero #banner {
+    width: 100vw;
+  }
+
+  /*Skills*/
+  #rowBoxes {
+    flex-direction: column;
+  }
+
+  /*Project display*/
+  .project .mock-up {
+    width: 80vw;
+  }
+
+  .project .description {
+    width: 90vw;
+  }
+
+  /*Footer*/
+  footer {
+    padding: 50px 20px;
+    flex-direction: column;
+  }
+}
