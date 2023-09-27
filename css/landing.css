@@ -45,6 +45,12 @@
   text-decoration: none;
 }
 
+/*work in progress*/
+
+#wip {
+  margin-top: 10px !important;
+}
+
 /*Skills*/
 #skills {
   display: flex;
