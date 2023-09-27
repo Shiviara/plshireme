@@ -238,6 +238,7 @@ section {
   background-color: var(--sage);
   color: var(--bottle) !important;
   border-radius: 5px;
+  font-size: 14px !important;
 }
 
 /*footer*/

@@ -147,6 +147,14 @@
   margin-top: 0;
 }
 
+#lastcta p {
+  font-size: 20px;
+}
+
+#lastcta h3 {
+  margin: 10px 0;
+}
+
 #lastcta button {
   margin-top: 0;
 }
