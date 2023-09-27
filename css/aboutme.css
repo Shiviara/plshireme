@@ -72,7 +72,7 @@ li {
 #rowBoxes {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 25px;
   flex-wrap: wrap;
 }
@@ -82,6 +82,7 @@ li {
   padding: 15px;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: space-between;
   gap: 10px;
   flex-shrink: 0;
   border-radius: 25px;
