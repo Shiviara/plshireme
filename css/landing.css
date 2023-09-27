@@ -24,9 +24,14 @@
 
 #banner {
   display: flex;
-  width: 1160px;
+  /*width: 1160px;*/
   align-items: flex-start;
   gap: 80px;
+}
+
+#hero img {
+  width: 30vw;
+  height: auto;
 }
 
 #whiteWave {
@@ -193,4 +198,39 @@
 
 .info p {
   font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  /*Hero*/
+  #hero img {
+    display: none;
+  }
+
+  #hero #banner {
+    width: 90vw;
+    height: 70vh;
+  }
+
+  /*Skills*/
+  #rowBoxes {
+    flex-direction: column;
+  }
+
+  /*Project display*/
+  .project {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .project .mock-up {
+    width: 80vw;
+  }
+
+  .project .description {
+    width: 90vw;
+  }
+
+  .mockR {
+    flex-direction: column-reverse;
+  }
 }

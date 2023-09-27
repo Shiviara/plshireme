@@ -72,7 +72,7 @@ li {
 #rowBoxes {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   gap: 25px;
   flex-wrap: wrap;
 }
@@ -82,6 +82,7 @@ li {
   padding: 15px;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: space-between;
   gap: 10px;
   flex-shrink: 0;
   border-radius: 25px;
@@ -135,7 +136,8 @@ h4 {
   margin-bottom: 10px;
 }
 
-#funFacts a {
+#funFacts a,
+#about a {
   color: var(--bottle);
 }
 
@@ -157,4 +159,35 @@ h4 {
 #lastcta h3 {
   color: var(--salmon);
   margin-top: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  /*Hero*/
+  .profilepic {
+    width: 80vw;
+    margin-top: 50px;
+  }
+
+  #banner {
+    flex-direction: column;
+  }
+
+  #heroText {
+    width: auto;
+  }
+
+  /*Testimonials*/
+  #rowBoxes {
+    flex-direction: column;
+  }
+
+  .skillBox {
+    width: 80vw;
+    padding: 20px;
+  }
+
+  /*Fun facts*/
+  #funFacts {
+    flex-direction: column;
+  }
 }
