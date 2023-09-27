@@ -1,6 +1,8 @@
 :root {
   --bottle: #004643;
+  --sage: #ccdad9;
   --salmon: #fb6d69;
+  --gum: #fd9996;
   --truewhite: #ffffff;
   --textblack: #101010;
 }
@@ -9,7 +11,7 @@
 /*Hero section*/
 #hero {
   background-color: var(--bottle);
-  /*height: 700px;*/
+  padding-bottom: 50px;
 }
 
 #heroText {
@@ -17,6 +19,7 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 5px;
+  margin-top: 50px;
 }
 
 #banner {
@@ -37,6 +40,71 @@
   color: var(--truewhite);
   margin: 0;
 }
+
+#hero a {
+  text-decoration: none;
+}
+
+/*work in progress*/
+
+#wip {
+  margin-top: 10px !important;
+}
+
+/*Skills*/
+#skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*gap: 70px;*/
+}
+
+#rowBoxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 25px;
+}
+
+.skillBox {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: var(--bottle);
+}
+
+.skillBox p,
+.skillBox h4 {
+  color: var(--truewhite);
+  margin: 0;
+}
+
+/*width of the text and boxes*/
+.skillBox p {
+  width: 280px;
+}
+
+#skills #tools {
+  color: var(--salmon);
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 70px;
+  max-width: none;
+  text-align: center;
+}
+
+#skills .material-symbols-outlined {
+  color: var(--truewhite);
+  background-color: var(--salmon);
+  padding: 15px;
+  border-radius: 100px;
+  font-size: 30px;
+}
+
 /*Get to know me*/
 #me {
   display: flex;
@@ -77,6 +145,10 @@
 /*ELEMENTS*/
 
 /*Project show case*/
+.soon {
+  filter: grayscale(100%);
+}
+
 .project {
   display: flex;
   align-items: flex-start;
@@ -84,6 +156,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-self: stretch;
+}
+
+.project a,
+#me a {
+  text-decoration: none;
 }
 
 .cases {
@@ -102,7 +179,7 @@
 }
 
 .mock-up {
-  filter: drop-shadow(-15px 20px 0px #fb6d69);
+  filter: drop-shadow(-15px 20px 0px var(--salmon));
   width: 415px;
   height: auto;
 }

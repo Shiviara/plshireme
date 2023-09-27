@@ -1,11 +1,26 @@
 :root {
   --bottle: #004643;
+  --sage: #ccdad9;
   --salmon: #fb6d69;
+  --gum: #fd9996;
   --truewhite: #ffffff;
   --textblack: #101010;
 }
 
+::selection {
+  background: var(--gum);
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 /* TYPOGRATHY */
+
+p {
+  max-width: 700px;
+}
 
 /*headings*/
 h1,
@@ -21,7 +36,7 @@ h5 {
 h1 {
   font-size: 90px;
   color: var(--truewhite);
-  text-shadow: 5px 5px 0px #ff6d6d;
+  text-shadow: 5px 5px 0px var(--salmon);
   line-height: 120%; /* 108px */
   letter-spacing: -2.4px;
   text-transform: uppercase;
@@ -49,12 +64,14 @@ h5 {
 }
 
 /*body text*/
-p {
+p,
+ul {
   font-size: 16px;
   font-family: "Lato", sans-serif;
   color: var(--bottle);
   font-weight: 400;
   margin: 10px 0;
+  max-width: 700px;
 }
 
 /*links*/
@@ -107,9 +124,9 @@ button {
   letter-spacing: 0.1px;
   margin-top: 40px;
   /*default*/
-  border: 1px solid #fff;
+  border: 1px solid var(--truewhite);
   background: var(--bottle);
-  box-shadow: 5px 5px 0px 0px #fff;
+  box-shadow: 5px 5px 0px 0px var(--truewhite);
   color: var(--truewhite);
 }
 
@@ -119,27 +136,32 @@ button:active {
 }
 
 button:hover {
-  background-color: #fd9996;
+  background-color: var(--gum);
+  cursor: pointer;
 }
 
 .primary-cta {
-  border: 1px solid #fff;
+  border: 1px solid var(--truewhite);
   background: var(--salmon);
-  box-shadow: 5px 5px 0px 0px #fff;
+  box-shadow: 5px 5px 0px 0px var(--truewhite);
   color: var(--truewhite);
 }
 
 .secondary-cta {
-  border: 1px solid #004643;
+  border: 1px solid var(--bottle);
   background: var(--salmon);
-  box-shadow: 5px 5px 0px 0px #004643;
+  box-shadow: 5px 5px 0px 0px var(--bottle);
   color: var(--bottle);
 }
 .tertiary-cta {
-  border: 1px solid #fff;
+  border: 1px solid var(--truewhite);
   background: var(--bottle);
-  box-shadow: 5px 5px 0px 0px #fff;
+  box-shadow: 5px 5px 0px 0px var(--truewhite);
   color: var(--truewhite);
+}
+
+.navbar button:hover {
+  background-color: var(--bottle);
 }
 
 /*SECTIONS*/
@@ -173,7 +195,7 @@ button:hover {
 
 .navbar .tertiary-cta {
   margin: 0;
-  display: flex;
+  /*display: flex;
   padding: 10px 24px;
   justify-content: center;
   align-items: center;
@@ -184,7 +206,7 @@ button:hover {
   font-style: normal;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.1px;*/
 }
 
 #navR {
@@ -211,7 +233,7 @@ footer {
   display: flex;
   padding: 80px 120px;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   align-self: stretch;
 }
 
@@ -222,12 +244,21 @@ footer p {
   color: var(--truewhite);
   margin: 5px 0;
 }
+
 .left {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 15px;
 }
+
+footer #contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
 .right {
   display: flex;
   flex-direction: row;
@@ -244,4 +275,69 @@ footer .column {
 
 footer .material-symbols-outlined {
   color: var(--truewhite);
+}
+
+#madeby {
+  font-size: 12px;
+  color: var(--sage);
+}
+
+/*~~~~~~ Mobile version ~~~~~~*/
+@media only screen and (max-width: 900px) {
+  /*TYPOGRAPHY*/
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  /*SECTIONS*/
+  /*General*/
+  section {
+    padding: 50px 20px;
+  }
+
+  /*Nav bar*/
+  #navR {
+    margin-right: 10px;
+  }
+
+  .navbar h5 {
+    margin-left: 10px;
+  }
+
+  /*Hero*/
+  #hero img {
+    display: none;
+  }
+
+  #hero #banner {
+    width: 100vw;
+  }
+
+  /*Skills*/
+  #rowBoxes {
+    flex-direction: column;
+  }
+
+  /*Project display*/
+  .project .mock-up {
+    width: 80vw;
+  }
+
+  .project .description {
+    width: 90vw;
+  }
+
+  /*Footer*/
+  footer {
+    padding: 50px 20px;
+    flex-direction: column;
+  }
 }

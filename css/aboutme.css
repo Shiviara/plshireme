@@ -1,0 +1,160 @@
+:root {
+  --bottle: #004643;
+  --sage: #ccdad9;
+  --salmon: #fb6d69;
+  --gum: #fd9996;
+  --truewhite: #ffffff;
+  --textblack: #101010;
+}
+
+/*PROFESSIONAL*/
+
+.profilepic {
+  border-radius: 200px;
+  border: 10px solid var(--salmon);
+}
+
+/*#hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}*/
+
+#banner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+#heroText {
+  display: flex;
+  flex-direction: column;
+  width: 570px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+/*PERSONAL*/
+#personal {
+  background-color: var(--sage);
+}
+
+.note {
+  font-size: smaller;
+  color: #0046439c;
+  margin: 0;
+}
+
+/*Testimonials*/
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*gap: 70px;*/
+  margin-top: 25px;
+}
+
+#rowBoxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.skillBox {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: var(--bottle);
+  width: 20vw;
+}
+
+.skillBox p,
+.skillBox h4 {
+  color: var(--truewhite);
+  margin: 0;
+}
+
+.skillBox p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.quote {
+  width: 100%;
+}
+
+.skillBox .person {
+  font-size: 14px;
+  font-style: normal;
+  float: left;
+}
+
+/*Fun facts*/
+h4 {
+  color: var(--bottle);
+  margin-top: 0;
+}
+
+#funFacts {
+  background-color: var(--sage);
+  display: flex;
+  flex-direction: row;
+  padding-top: 0;
+  align-items: flex-end;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+#factsText {
+  display: flex;
+  flex-direction: column;
+}
+
+#factsText h3 {
+  margin-bottom: 10px;
+}
+
+#funFacts a {
+  color: var(--bottle);
+}
+
+#funFacts .cat {
+  height: 180px;
+  width: auto;
+}
+
+/*Last cta*/
+/*Last cta*/
+#lastcta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+
+#lastcta p,
+#lastcta h3 {
+  color: var(--salmon);
+  margin-top: 0;
+}

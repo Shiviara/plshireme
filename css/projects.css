@@ -1,0 +1,171 @@
+:root {
+  --bottle: #004643;
+  --sage: #ccdad9;
+  --salmon: #fb6d69;
+  --gum: #fd9996;
+  --truewhite: #ffffff;
+  --textblack: #101010;
+}
+
+/*GENERAL*/
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+#Figma a {
+  text-decoration: none;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/*Side navigation*/
+
+.sideNav {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  overflow-x: hidden;
+  top: 25vw;
+  /*flex box*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  gap: 5px;
+}
+
+.sideNav a {
+  color: var(--bottle);
+  font-family: "Alata", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.sideNav a:hover {
+  color: var(--salmon);
+}
+
+.sideNav a:active {
+  color: var(--salmon);
+}
+
+/*Layout options*/
+
+.textImg {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  object-fit: contain;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+article img {
+  width: 25vw;
+  height: auto;
+  object-fit: contain;
+}
+
+.Twopics,
+.Threepics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.Twopics img {
+  width: 33vw;
+  height: auto;
+}
+
+.Threepics img {
+  height: 20vw;
+  width: auto;
+}
+
+/*SECTIONS*/
+
+/*Overview*/
+#overview h4 {
+  color: var(--salmon);
+}
+
+.infoPoints {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.infoPoints h5,
+.infoPoints p {
+  margin: 0;
+  max-width: 400px;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#client {
+  background-color: var(--sage);
+}
+
+#problem {
+  background-color: var(--bottle);
+}
+
+#problem p,
+#problem h3 {
+  color: var(--truewhite);
+}
+
+/*background change*/
+#discover,
+#develop {
+  background-color: var(--sage);
+}
+
+/*hmw*/
+
+#hmw img {
+  /*max-width: 500px;*/
+  width: 30vw;
+}
+
+#goals {
+  margin-bottom: 25px;
+}
+
+/*Low-fi*/
+
+#lowFi {
+  margin-top: 50px;
+}
+
+#lowFi .Threepics {
+  margin: 0;
+}
+
+/*Testing*/
+
+#testing p {
+  max-width: 500px;
+}
