@@ -226,6 +226,21 @@ section {
   padding: 100px 12vw;
 }
 
+/*Copy email*/
+#feedback {
+  /*functionality*/
+  opacity: 0;
+  transition: opacity 0.5s ease;
+
+  /*looks*/
+  margin-top: 30px;
+  padding: 5px;
+  background-color: var(--sage);
+  color: var(--bottle) !important;
+  border-radius: 5px;
+  font-size: 14px !important;
+}
+
 /*footer*/
 footer {
   background-color: var(--bottle);
