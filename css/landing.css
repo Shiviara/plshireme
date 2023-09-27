@@ -29,6 +29,11 @@
   gap: 80px;
 }
 
+#hero img {
+  width: 20vw;
+  height: auto;
+}
+
 #whiteWave {
   background-color: var(--bottle);
 }
@@ -193,4 +198,38 @@
 
 .info p {
   font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  /*Hero*/
+  #hero img {
+    display: none;
+  }
+
+  #hero #banner {
+    width: 90vw;
+    height: 70vh;
+  }
+
+  /*Skills*/
+  #rowBoxes {
+    flex-direction: column;
+  }
+
+  /*Project display*/
+  .project {
+    gap: 20px;
+  }
+
+  .project .mock-up {
+    width: 80vw;
+  }
+
+  .project .description {
+    width: 90vw;
+  }
+
+  #smukfest {
+    flex-direction: column-reverse;
+  }
 }

@@ -297,6 +297,11 @@ footer .material-symbols-outlined {
     font-size: 20px;
   }
 
+  /*Buttons*/
+  button {
+    margin-top: 20px;
+  }
+
   /*SECTIONS*/
   /*General*/
   section {
@@ -310,29 +315,6 @@ footer .material-symbols-outlined {
 
   .navbar h5 {
     margin-left: 10px;
-  }
-
-  /*Hero*/
-  #hero img {
-    display: none;
-  }
-
-  #hero #banner {
-    width: 100vw;
-  }
-
-  /*Skills*/
-  #rowBoxes {
-    flex-direction: column;
-  }
-
-  /*Project display*/
-  .project .mock-up {
-    width: 80vw;
-  }
-
-  .project .description {
-    width: 90vw;
   }
 
   /*Footer*/
