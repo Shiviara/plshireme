@@ -20,8 +20,8 @@ const Footer = `
             <!--Navigation-->
             <div class="column">
             <h5>Navigation</h5>
-            <a href="index.html">Home</a>
-            <a href="index.html">Work</a>
+            <a href="portfolio.html">Home</a>
+            <a href="portfolio.html">Work</a>
             <a href="aboutme.html">About me</a>
             </div>
 

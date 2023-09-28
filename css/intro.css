@@ -100,6 +100,10 @@ button {
   color: var(--textblack);
 }
 
+a {
+  text-decoration: none;
+}
+
 button:active {
   box-shadow: 0 0px #666;
   transform: translate(5px, 5px);
