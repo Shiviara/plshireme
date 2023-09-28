@@ -8,7 +8,8 @@ setTimeout(function () {
   document.getElementById("speechBubble").textContent = "It's so boring.";
 
   setTimeout(function () {
-    document.getElementById("speechBubble").textContent = "I mean really?";
+    document.getElementById("speechBubble").textContent =
+      "Is it seriously an UX/UI portfolio?";
 
     setTimeout(function () {
       document.getElementById("speechBubble").textContent = "Hey, you!";
@@ -17,6 +18,11 @@ setTimeout(function () {
       setTimeout(function () {
         document.getElementById("speechBubble").textContent =
           "Click that button!";
+
+        setTimeout(function () {
+          document.getElementById("speechBubble").textContent =
+            "Come on! We don't have the entire day";
+        }, 10000);
       }, 1000);
     }, 3000);
   }, 2000);
