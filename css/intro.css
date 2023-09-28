@@ -21,6 +21,23 @@ h2 {
   font-weight: 400;
 }
 
+/*Cat*/
+
+#grumpy {
+  position: absolute;
+  left: -25px;
+  bottom: -30px;
+}
+
+#container {
+  width: 40vw;
+  height: 50vh;
+  position: relative;
+  background: yellow;
+  bottom: 0;
+  left: 0;
+}
+
 /*Button*/
 button {
   /*every*/
