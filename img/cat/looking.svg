@@ -1,9 +1,9 @@
 <svg width="245" height="330" viewBox="0 0 245 330" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M97.1264 9C52.7264 49.8 47.1268 65.5 34.1266 87C18.1737 113.383 -23.7074 269.553 28.1267 312.5C45.6274 327 191.126 340 222.126 300.5C246.926 268.9 225.96 146.333 209.627 87C209.627 64 204.127 38 209.627 9C184.851 41.1312 171.971 62.1162 163.462 81.1108C163 82.142 161.79 82.5978 160.731 82.2031C144.166 76.0265 105.329 79.5834 87.9902 82.571C86.7526 82.7842 85.6262 81.8423 85.6601 80.5871C86.1346 63.0182 91.5545 36.5413 97.1264 9Z" fill="white" stroke="black" stroke-width="6" stroke-linecap="round"/>
 <rect x="38.127" y="139.5" width="87" height="19" rx="7" fill="white" stroke="black" stroke-width="6"/>
-<path d="M103.127 146.5V151.5" stroke="black" stroke-width="6" stroke-linecap="round"/>
+<path d="M83.127 146.5V151.5" stroke="black" stroke-width="6" stroke-linecap="round"/>
 <rect x="154.127" y="139.5" width="87" height="19" rx="7" fill="white" stroke="black" stroke-width="6"/>
-<path d="M219.127 146.5V151.5" stroke="black" stroke-width="6" stroke-linecap="round"/>
+<path d="M199.127 146.5V151.5" stroke="black" stroke-width="6" stroke-linecap="round"/>
 <path d="M89.627 115.5L103.627 128.5L110.627 122.5" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M182.127 115.5L168.127 128.5L161.127 122.5" stroke="black" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M122.224 184C118.499 187.795 114.77 192.921 111.127 199.5H163.127C161.007 193.868 158.474 189.104 155.627 185.342M122.224 184L128.127 191L135.127 175.959M122.224 184C126.576 179.567 130.925 176.951 135.127 175.959M135.127 175.959C138.405 175.186 141.594 175.401 144.627 176.514M144.627 176.514L148.627 191L155.627 185.342M144.627 176.514C148.614 177.976 152.331 180.988 155.627 185.342" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
