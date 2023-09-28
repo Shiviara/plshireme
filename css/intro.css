@@ -44,6 +44,11 @@ h2 {
   bottom: -500px;*/
 }
 
+/*#textToChange {
+  display: inline-block;
+  white-space: pre;
+}*/
+
 #speechBubble {
   position: relative;
   background-color: #fff;
