@@ -21,7 +21,7 @@ setTimeout(function () {
 
         setTimeout(function () {
           document.getElementById("speechBubble").textContent =
-            "Come on! We don't have the entire day";
+            "Come on! We don't have all day";
         }, 10000);
       }, 1000);
     }, 3000);

@@ -16,6 +16,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 32px;
   font-weight: 400;
+  text-align: center;
 }
 
 h2 {
@@ -23,6 +24,7 @@ h2 {
   font-size: 24px;
   margin: 0;
   font-weight: 400;
+  text-align: center;
 }
 
 /*Cat*/
@@ -120,4 +122,22 @@ button:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 30vh;
+}
+
+@media only screen and (max-width: 500px) {
+  #grumpy {
+    width: 45vw;
+  }
+
+  #container {
+    /*flex-direction: column-reverse;*/
+    gap: 0;
+  }
+
+  #speechBubble {
+    /*margin-left: 5vh;
+    width: 80vw;*/
+    margin-top: 0;
+    margin-right: 1vw;
+  }
 }
