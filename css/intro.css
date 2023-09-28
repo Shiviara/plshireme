@@ -62,7 +62,7 @@ h2 {
 
   /*Animation*/
   opacity: 0;
-  animation: fadeIn 1s forwards 2s;
+  animation: fadeIn 0.5s forwards 1.5s;
 }
 
 @keyframes moveUp {

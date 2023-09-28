@@ -1,26 +1,22 @@
 console.log("Looking for a cat");
+/*
+setTimeout(function () {
+  document.getElementById("speechBubble").textContent = "It's so boring.";
+}, 5000);*/
 
 setTimeout(function () {
-  document.getElementById("speechBubble").textContent = "...";
-}, 5000);
+  document.getElementById("speechBubble").textContent = "It's so boring.";
 
-/*
-//Text changes gradually
-function changeText() {
-  const textToChange = document.getElementById("speechBubble");
-  const originalText = textToChange.innerText;
-  textToChange.innerText = "...";
+  setTimeout(function () {
+    document.getElementById("speechBubble").textContent = "...";
 
-  let currentIndex = originalText.length;
-  const interval = setInterval(function () {
-    currentIndex--;
-    textToChange.innerText = originalText.slice(0, currentIndex) + "...";
+    setTimeout(function () {
+      document.getElementById("speechBubble").textContent = "Hey, you!";
 
-    if (currentIndex === 0) {
-      clearInterval(interval);
-    }
-  }, 100); // Adjust the interval for the speed of the animation
-}
-
-setTimeout(changeText, 2000);
-*/
+      setTimeout(function () {
+        document.getElementById("speechBubble").textContent =
+          "Click this button!";
+      }, 1000);
+    }, 3000);
+  }, 2000);
+}, 4000);
