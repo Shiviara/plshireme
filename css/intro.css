@@ -26,33 +26,51 @@ h2 {
 }
 
 /*Cat*/
-#grumpy {
+
+#container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
   position: absolute;
   left: -25px;
-  bottom: -500px; /* Move the image off-screen */
-  animation: moveUp 1s forwards 1s; /* Start animation after 1s delay */
+  bottom: -500px;
+  animation: moveUp 1s forwards 1s;
+}
+
+#grumpy {
+  position: relative;
+  /*left: -25px;
+  bottom: -500px;*/
+}
+
+#speechBubble {
+  opacity: 0;
+  position: relative;
+  background-color: #fff;
+  padding: 15px 20px;
+  border: 3px solid var(--textblack);
+  border-radius: 100px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  margin-top: 70px;
+
+  /*Animation*/
+  animation: fadeIn 1s forwards 2s;
 }
 
 @keyframes moveUp {
   to {
-    bottom: -30px; /* Move the image up to its original position */
+    bottom: -30px;
   }
 }
 
-/*#grumpy {
-  position: absolute;
-  left: -25px;
-  bottom: -30px;
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
-
-#container {
-  width: 40vw;
-  height: 50vh;
-  position: relative;
-  background: yellow;
-  bottom: 0;
-  left: 0;
-}*/
 
 /*Button*/
 button {
