@@ -48,11 +48,15 @@ li {
   padding: 0 20px;
 }
 
-.sideNav a:hover {
-  color: var(--salmon);
+.sideNav a.active {
+  color: var(--truewhite);
 }
 
-.sideNav a:active {
+.sideNav a:not(.active) {
+  color: var(--bottle);
+}
+
+.sideNav a:hover {
   color: var(--salmon);
 }
 
