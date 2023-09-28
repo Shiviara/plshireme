@@ -7,6 +7,10 @@
   --textblack: #101010;
 }
 
+html {
+  overflow-y: hidden;
+}
+
 /*Typography*/
 h1 {
   font-family: Arial, Helvetica, sans-serif;
@@ -22,8 +26,20 @@ h2 {
 }
 
 /*Cat*/
-
 #grumpy {
+  position: absolute;
+  left: -25px;
+  bottom: -500px; /* Move the image off-screen */
+  animation: moveUp 1s forwards 1s; /* Start animation after 1s delay */
+}
+
+@keyframes moveUp {
+  to {
+    bottom: -30px; /* Move the image up to its original position */
+  }
+}
+
+/*#grumpy {
   position: absolute;
   left: -25px;
   bottom: -30px;
@@ -36,7 +52,7 @@ h2 {
   background: yellow;
   bottom: 0;
   left: 0;
-}
+}*/
 
 /*Button*/
 button {
