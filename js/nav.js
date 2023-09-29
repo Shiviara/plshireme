@@ -6,7 +6,7 @@ const Nav = `
       <div id="navR">
         <a href="portfolio.html">Work</a>
         <a href="aboutme.html">About me</a>
-        <button href="#" class="tertiary-cta">View CV</button>
+        <a href="CV.pdf" target="_blank"><button class="tertiary-cta">View CV</button></a>
       </div>
 `;
 
