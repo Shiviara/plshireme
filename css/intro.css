@@ -1,0 +1,144 @@
+:root {
+  --bottle: #004643;
+  --sage: #ccdad9;
+  --salmon: #fb6d69;
+  --gum: #fd9996;
+  --truewhite: #ffffff;
+  --textblack: #101010;
+}
+
+html {
+  overflow-y: hidden;
+}
+
+/*Typography*/
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*Cat*/
+
+#container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  position: absolute;
+  left: -25px;
+  bottom: -500px;
+  animation: moveUp 1s forwards 1s;
+}
+
+#grumpy {
+  position: relative;
+  /*left: -25px;
+  bottom: -500px;*/
+}
+
+/*#textToChange {
+  display: inline-block;
+  white-space: pre;
+}*/
+
+#speechBubble {
+  position: relative;
+  background-color: #fff;
+  padding: 15px 20px;
+  border: 3px solid var(--textblack);
+  border-radius: 100px;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  height: 100%;
+  margin-top: 70px;
+
+  /*Animation*/
+  opacity: 0;
+  animation: fadeIn 0.5s forwards 1.5s;
+}
+
+@keyframes moveUp {
+  to {
+    bottom: -30px;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/*Button*/
+button {
+  /*every*/
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  margin-top: 40px;
+  /*default*/
+  border: 1px solid var(--textblack);
+  background: var(--truewhite);
+  box-shadow: 5px 5px 0px 0px var(--textblack);
+  color: var(--textblack);
+}
+
+a {
+  text-decoration: none;
+  font-family: Lato;
+}
+
+button:active {
+  box-shadow: 0 0px #666;
+  transform: translate(5px, 5px);
+}
+
+button:hover {
+  background-color: var(--salmon);
+  cursor: pointer;
+}
+
+/*Text*/
+#text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30vh;
+}
+
+@media only screen and (max-width: 500px) {
+  #grumpy {
+    width: 45vw;
+  }
+
+  #container {
+    /*flex-direction: column-reverse;*/
+    gap: 0;
+  }
+
+  #speechBubble {
+    /*margin-left: 5vh;
+    width: 80vw;*/
+    margin-top: 0;
+    margin-right: 1vw;
+  }
+}
