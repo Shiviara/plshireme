@@ -1,4 +1,3 @@
-console.log("Changing color of side nav");
 /*
 //Highlight where you are in toc by ChatGPT
 const projectsSection = document.getElementById("sideNav");

@@ -1,5 +1,3 @@
-console.log("Adding footer");
-
 //Universal footer with copyright
 const Footer = `
     <!--Contact-->

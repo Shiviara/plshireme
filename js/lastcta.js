@@ -1,5 +1,3 @@
-console.log("Invite for some tea");
-
 //Last cta section
 const LastCTA = `
     <img src="/img/greenWaveTop.svg" class="waves">
