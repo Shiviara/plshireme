@@ -29,9 +29,25 @@
   gap: 80px;
 }
 
-#hero img {
-  width: 30vw;
-  height: auto;
+.profilepic {
+  border-radius: 500px;
+  border: 10px solid var(--salmon);
+  position: relative;
+  width: 25vw;
+}
+
+#cat {
+  position: absolute;
+  z-index: 1;
+  right: 10vw;
+  width: 10vw;
+}
+
+#duo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: static;
 }
 
 #whiteWave {
