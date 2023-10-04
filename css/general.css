@@ -18,10 +18,6 @@ html {
 
 /* TYPOGRATHY */
 
-p {
-  max-width: 700px;
-}
-
 /*headings*/
 h1,
 h2,
@@ -67,6 +63,7 @@ h5 {
 p,
 ul {
   font-size: 16px;
+  line-height: 1.5;
   font-family: "Lato", sans-serif;
   color: var(--bottle);
   font-weight: 400;
