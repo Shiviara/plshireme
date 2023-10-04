@@ -151,6 +151,17 @@
 
 /*ELEMENTS*/
 
+/*Up arrow*/
+.arrow {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  padding: 15px;
+  border-radius: 200px;
+  background-color: var(--sage);
+}
+
 /*Project show case*/
 .soon {
   filter: grayscale(100%);
