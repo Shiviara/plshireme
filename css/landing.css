@@ -185,6 +185,11 @@
   align-items: flex-start;
 }
 
+.description h3,
+.description p {
+  margin: 0;
+}
+
 .mock-up {
   filter: drop-shadow(-15px 20px 0px var(--salmon));
   width: 415px;
@@ -196,10 +201,13 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 10px;
+  margin: 20px 0;
 }
 
 .info p {
   font-size: 20px;
+  margin: 0;
 }
 
 @media only screen and (max-width: 900px) {
