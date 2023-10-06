@@ -8,7 +8,7 @@ setTimeout(function () {
 
   setTimeout(function () {
     document.getElementById("speechBubble").textContent =
-      "Is it seriously an UX/UI portfolio?";
+      "Is it seriously a UX/UI portfolio?";
 
     setTimeout(function () {
       document.getElementById("speechBubble").textContent = "Hey, you!";
