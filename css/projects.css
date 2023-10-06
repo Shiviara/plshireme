@@ -139,7 +139,8 @@ article img {
 }
 
 #problem p,
-#problem h3 {
+#problem h3,
+#problem ul {
   color: var(--truewhite);
 }
 
