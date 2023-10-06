@@ -20,6 +20,10 @@ h3 {
   text-decoration: none;
 }
 
+article a {
+  color: var(--bottle);
+}
+
 li {
   margin-bottom: 10px;
 }
