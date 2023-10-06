@@ -3,235 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>plshireme.com</title>
-    <!-- fonts --><div>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alata&family=Lato:wght@300;400&display=swap"
-      rel="stylesheet"
-    /></div>
-    <!-- icons --><div>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
-    />
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
-  </div>
+    <title>Marta Zarebska Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon2.ico" />
+    <!-- fonts -->
+    <div>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Alata&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet"
+      />
+    </div>
     <!-- my stylesheets -->
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/intro.css" />
   </head>
   <body>
-    <header class="navbar">
-      <a href="#hero"><h5>Marta Zarebska</h5></a>
-      <div id="navR">
-        <a href="#work">Work</a>
-        <a href="aboutme.html">About me</a>
-        <button href="#" class="tertiary-cta">View CV</button>
-      </div>
-    </header>
+    <div id="text">
+      <!--<h2>Hi, I'm <span style="color: var(--salmon)">Marta Zarebska</span></h2>
+      <h1>
+        I’m an <span style="color: var(--salmon)">UX/UI designer</span> located
+        in Aarhus
+      </h1>-->
 
- <!--Split navbar-->
-    <!--<header class="navbar">
-      <a href="#hero" class="split"><h5>Marta Zarebska</h5></a>
-        <a href="#work">Work</a>
-        <a href="#about">About me</a>
-        <a href="#" class="tertiary-cta">View CV</a>
-    </header>-->
+      <h2>Hi, I'm <span style="font-weight: bold">Marta Zarebska</span></h2>
+      <h1>
+        I’m an <span style="font-weight: bold">UX/UI designer</span> located in
+        Aarhus
+      </h1>
 
-    <main>
-      <section id="hero">
-        <div id="banner">
-        <div id="heroText">
-        <p>Hi, I'm <span style="color: var(--salmon)">Marta</span></p>
-        <h1>ux / ui designer</h1>
-        <h3>who creates memorable experiences that are more than basic</h3>
-        <a href="aboutme.html"><button class="primary-cta">About me</button></a>
-        </div>
-        <img src="/img/herophoto.png" alt="Picture of Marta with the doodle cat on the side smiling">
-        </div>
-      </section>
-      <img src="/img/whiteWave.svg" id="whiteWave" class="waves">
+      <a href="portfolio.html"> <button>Make it fun</button></a>
+    </div>
+    <div id="container">
+      <img
+        src="img/cat/talking.svg"
+        alt="A doodled grumpy looking cat"
+        id="grumpy"
+      />
+      <p id="speechBubble">Oh, wow.</p>
+    </div>
 
-      <section id="skills">
-        <div style="display: flex; align-items: flex-start; flex-direction: column;" >
-        <h2>What do I do?</h2>
-
-        <div id="rowBoxes">
-        <!--Box 1-->
-        <div class="skillBox">
-          <span class="material-symbols-outlined">draw</span>
-          <h4>UX/UI design</h4>
-          <p>Design is where I’m in my element. It is the middleman between the users and the stakeholders, that needs to both seamless and aesthetic. A good design is the one that we don’t notice, but also makes us want to return to it.
-          </p>
-        </div>
-        
-        <!--Box 2-->
-        <div class="skillBox">
-          <span class="material-symbols-outlined">sync_saved_locally</span>
-          <h4>Testing</h4>
-          <p>Testing is my (second) favourite part of the process. It brings mistakes into the surface, solves team conflicts and inspires to search for better solutions.
-          </p>
-        </div>
-        
-        <!--Box 3-->
-        <div class="skillBox">
-          <span class="material-symbols-outlined">forum</span>
-          <h4>Communication</h4>
-          <p>I can work independently but I love working in a team. I think that diverse perspectives lead to better outcomes. I support an environment where everyone's voice contributes to creating beautiful and functional solutions.
-          </p>
-        </div>
-        </div>
-
-        </div>
-
-        <p id="tools">Figma | Adobe XD | Photoshop | Illustrator | Wordpress | Html | CSS | JavaScript</p>
-      </section>
-
-      <section id="me">
-        <h3>Want to get to know me?</h3>
-        <button class="secondary-cta">About me</button>
-      </section>
-
-      <section id="work">
-        <h2>Work</h2>
-        <!--Case studies-->
-        <div class="cases">
-          <!--The Clothing Club-->
-          <div class="project">
-            <img src="img/tcc2.png" alt="" class="mock-up" />
-            <div class="description">
-              <h3>The Clothing Club</h3>
-              <div class="info">
-                <div class="iconText">
-                  <span class="material-symbols-outlined"> diversity_3 </span>
-                  <p>Team of 4</p>
-                </div>
-                <div class="iconText">
-                  <span class="material-symbols-outlined"> schedule </span>
-                  <p>6 weeks</p>
-                </div>
-              </div>
-              <p>
-                Creating a responsive website for a non-profit organization The Clothing
-                Club. The project included rebranding, designing and coding a
-                responsive solution that would increase awerness and digital presentce of the client.
-              </p>
-              <a href="tcc.html"><button class="secondary-cta">Read more</button></a>
-            </div>
-          </div>
-
-          <!--Smukfest-->
-          <div class="project">
-            <div class="description">
-              <h3>Smukfest</h3>
-              <div class="info">
-                <div class="iconText">
-                  <span class="material-symbols-outlined"> diversity_3 </span>
-                  <p>Team of 4</p>
-                </div>
-                <div class="iconText">
-                  <span class="material-symbols-outlined"> schedule </span>
-                  <p>5 weeks</p>
-                </div>
-              </div>
-              <p>
-                Redesign of Min Smukfest app created in collaboration with IBM. Our tasks were to make the solution consistent with the new website of Smukfest, improve user experience of the app and brainstorming new features that could ease the festival experience for the attendees.
-              </p>
-              <a href="smukfest.html"><button class="secondary-cta">Read more</button></a>
-            </div>
-            <img src="img/smukfest3.svg" alt="Mock-ups showing screens of the MinSmuk app on phones" class="mock-up" />
-          </div>
-
-          <!--EcoBites-->
-          <div class="project">
-            <img src="img/ecobites2.png" alt="" class="mock-up" />
-            <div class="description">
-              <h3>EcoBites</h3>
-              <div class="info">
-                <div class="iconText">
-                  <span class="material-symbols-outlined"> diversity_3 </span>
-                  <p>Team of 4 & AI</p>
-                </div>
-                <div class="iconText">
-                  <span class="material-symbols-outlined"> schedule </span>
-                  <p>3 days</p>
-                </div>
-              </div>
-              <p>
-                Designing a landing page for a fake company EcoBites which target audience was generated by AI. During this case we tried out various ways of using AI in the design process to see how useful it actually can be.
-              </p>
-              <a href="ecobites.html"><button class="secondary-cta">Read more</button></a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="personal">
-        <h2>Personal projects</h2>
-
-        <div class="cases">
-          <!--Tea boxes-->
-          <div class="project">
-            <div class="description">
-              <h3>Tea boxes</h3>
-              <div class="info">
-                <div class="iconText">
-                  <span class="material-symbols-outlined"> diversity_3 </span>
-                  <p>Solo</p>
-                </div>
-                <div class="iconText">
-                  <span class="material-symbols-outlined"> schedule </span>
-                  <p>0 days</p>
-                </div>
-              </div>
-              <p>
-                Tea boxes design
-              </p>
-              <button class="primary-cta">Read more</button>
-            </div>
-            <img src="img/tcc2.png" alt="" class="mock-up" />
-          </div>
-      </section>
-
-      <section id="lastcta">
-        <img src="/img/greenWaveTop.svg" class="waves">
-        <h3>Do you have an idea brewing? </h3>
-        <p>Let's talk it over some tea</p>
-        <button class="secondary-cta">Contact me</button>
-        <img src="/img/greenWaveBottom.svg" class="waves">
-      </section>
-    </main>
-    <footer>
-        <!--Contact-->
-        <div class="left">
-            <h3>Marta Zarebska</h3>
-            <div class="iconText">
-                <a href="https://www.linkedin.com/in/marta-zarebska/" target="_blank"><img src="/img/linkedin.svg" alt="LinkedIn"></a>
-                <span class="material-symbols-outlined"> mail</span>
-            <p>martazarebska@plshireme.com</p>
-        </div>
-        </div>
-
-        <div class="right">
-
-            <!--Navigation-->
-            <div class="column">
-            <h5>Navigation</h5>
-            <a href="#hero">Home</a>
-            <a href="#work">Work</a>
-            <a href="aboutme.html">About me</a>
-            </div>
-
-            <div class="column">
-            <h5>Work</h5>
-            <a href="tcc.html">The Clothing Club</a>
-          <a href="smukfest.html">Smukfest</a>
-          <a href="ecobites.html">EcoBites</a>
-            </div>
-        </div>
-    </footer>
+    <script src="/js/intro.js"></script>
   </body>
 </html>

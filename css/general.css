@@ -18,10 +18,6 @@ html {
 
 /* TYPOGRATHY */
 
-p {
-  max-width: 700px;
-}
-
 /*headings*/
 h1,
 h2,
@@ -34,7 +30,7 @@ h5 {
 }
 
 h1 {
-  font-size: 90px;
+  font-size: 5vw;
   color: var(--truewhite);
   text-shadow: 5px 5px 0px var(--salmon);
   line-height: 120%; /* 108px */
@@ -67,6 +63,7 @@ h5 {
 p,
 ul {
   font-size: 16px;
+  line-height: 1.5;
   font-family: "Lato", sans-serif;
   color: var(--bottle);
   font-weight: 400;
@@ -165,6 +162,16 @@ button:hover {
 }
 
 /*SECTIONS*/
+
+/*General*/
+body {
+  margin: 0;
+}
+
+section {
+  padding: 100px 12vw;
+}
+
 /*navigation bar*/
 .navbar {
   /*overflow: hidden;*/
@@ -181,7 +188,7 @@ button:hover {
   align-self: stretch;
   /*border-bottom: 1px solid #fff;*/
   background: var(--bottle, #004643);
-  z-index: 1;
+  z-index: 2;
 }
 
 .navbar h5 {
@@ -217,13 +224,45 @@ button:hover {
   margin-right: 120px;
 }
 
-/*General*/
-body {
-  margin: 0;
+/*Last cta*/
+#lastcta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
 }
 
-section {
-  padding: 100px 200px;
+#lastcta p,
+#lastcta h3 {
+  color: var(--salmon);
+  margin-top: 0;
+}
+
+#lastcta p {
+  font-size: 20px;
+}
+
+#lastcta h3 {
+  margin: 10px 0;
+}
+
+#lastcta button {
+  margin-top: 0;
+}
+
+/*Copy email*/
+#feedback {
+  /*functionality*/
+  opacity: 0;
+  transition: opacity 0.5s ease;
+
+  /*looks*/
+  margin-top: 30px;
+  padding: 5px;
+  background-color: var(--sage);
+  color: var(--bottle) !important;
+  border-radius: 5px;
+  font-size: 14px !important;
 }
 
 /*footer*/
@@ -233,7 +272,7 @@ footer {
   display: flex;
   padding: 80px 120px;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: stretch;
   align-self: stretch;
 }
 
@@ -244,12 +283,21 @@ footer p {
   color: var(--truewhite);
   margin: 5px 0;
 }
+
 .left {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 15px;
 }
+
+footer #contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
 .right {
   display: flex;
   flex-direction: row;
@@ -266,4 +314,51 @@ footer .column {
 
 footer .material-symbols-outlined {
   color: var(--truewhite);
+}
+
+#madeby {
+  font-size: 12px;
+  color: var(--sage);
+}
+
+/*~~~~~~ Mobile version ~~~~~~*/
+@media only screen and (max-width: 900px) {
+  /*TYPOGRAPHY*/
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  /*Buttons*/
+  button {
+    margin-top: 20px;
+  }
+
+  /*SECTIONS*/
+  /*General*/
+  section {
+    padding: 50px 20px;
+  }
+
+  /*Nav bar*/
+  #navR {
+    margin-right: 10px;
+  }
+
+  .navbar h5 {
+    margin-left: 10px;
+  }
+
+  /*Footer*/
+  footer {
+    padding: 50px 20px;
+    flex-direction: column;
+  }
 }

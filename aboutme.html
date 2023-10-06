@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About me</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon2.ico">
     <!-- fonts -->
     <div>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,13 +23,7 @@
     <link rel="stylesheet" href="css/aboutme.css" />
   </head>
   <body>
-    <header class="navbar">
-      <a href="index.html"><h5>Marta Zarebska</h5></a>
-      <div id="navR">
-        <a href="index.html">Work</a>
-        <a href="#about">About me</a>
-        <button href="#" class="tertiary-cta">View CV</button>
-      </div>
+    <header class="navbar" id="nav">
     </header>
     <main>
       <section id="hero">
@@ -40,10 +35,10 @@
               <h3>About me</h3>
               <!-- <h3>Hi, I'm <span style="color: #fb6d69">Marta</span></h3>-->
               <p>
-                I’m <span style="color: var(--salmon)">Marta</span>, a
+                I’m <span style="color: var(--salmon); font-weight: bold;">Marta</span>, a
                 <span style="font-weight: bold;"> Multimedia Design student</span> in Business Academy Aarhus. 
                 I’m <span style="font-weight: bold;">hard-working</span> and always <span style="font-weight: bold;">willing to learn</span> something new. 
-                In my spare time you can find me attending different events or volunteering in Café Mellemfolk. 
+                In my spare time you can find me attending different events or volunteering in <a href="https://www.facebook.com/mellemfolk">Café Mellemfolk</a>. 
                 I’m facing the world with a <!--<span style="font-weight: bold;">calm</span> and <span style="font-weight: bold;">positive</span> attitude.-->
                 <span style="font-weight: bold;">calm</span> and <span style="font-weight: bold;">down-to-earth</span> attitude and a pinch of <span style="font-weight: bold;">optimism</span>.
                 According to some people, I’m also the most <span style="font-weight: bold;">organised</span> person they know.
@@ -53,22 +48,23 @@
             <div id="working">
               <h3>How I work</h3>
               <ul>
-                <li>As a UX/UI designer I’m...</li>
+                <!--<li>As a UX/UI designer I’m...</li>-->
                 <li>
-                  Ideating, wireframing and prototyping are my favourite steps
+                  <span style="font-weight: bold;">Ideating, wireframing and prototyping</span> are my favourite steps
                   in the process.
                 </li>
                 <li>
-                  I can work independently but I love working in a team. I
-                  believe that combining minds of multiple people always
-                  provides better, broaden results.
+                  I can work independently but I <span style="font-weight: bold;">love working in a team</span>. I
+                  believe that combining minds of multiple people always provides better, broaden results.
                 </li>
                 <li>
-                  I thrive in combining ideas of all the team-members and
+                  I thrive in <span style="font-weight: bold;">combining ideas</span> of all the team-members and
                   building upon them while brainstorming.
                 </li>
                 <li>
-                  Testing is my second favourite part of the process. It brings problems into the surface, solves team conflicts and inspires for searching for better solutions.
+                  <span style="font-weight: bold;">Testing</span> is my <span style="font-weight: bold;">second favourite</span> part of the process. 
+                  It brings problems into the surface, 
+                  solves team conflicts and inspires for searching for better solutions.
                 </li>
               </ul>
             </div>
@@ -135,56 +131,37 @@
           <h3>Want to know more?</h3>
           <h4>Here are some fun-facts about me</h4>
           <ul>
-            <li>I've been volunteering as a barista for 1 year but I dislike coffee</li>
-            <li>Ticktick, notion and google calendar are keeping my life together</li>
-            <li>I've watched over 770h of Critical Role and still going</li>
-            <li>I'm very opinionated about tea and how to brew it</li>
-            <li>I have a ranking of chai lattes on oat milk in Aarhus (LYNFabbriken is winning)</li>
-            <li>I've never eaten pizza in Italy and I think it's scandalous</li>
-            <li>I’m a big fan of <a href="https://www.oatly.com/en-gb/stuff-we-make/oat-drinks/oat-drink-barista-edition" target="_blank">Oatly’s</a> tone of voice</li>
+            <li>I've been <span style="font-weight: bold;">volunteering</span> as a <a href="https://www.facebook.com/mellemfolk">barista</a> for 1 year but I dislike coffee.</li>
+            <li><span style="font-weight: bold;">Ticktick, notion and google calendar</span> are keeping my life together.</li>
+            <li>I've watched over 770h of <span style="font-weight: bold;">Critical Role</span> and still going.</li>
+            <li>I'm very opinionated about <span style="font-weight: bold;">tea</span> and how to brew it.</li>
+            <li>I have a <span style="font-weight: bold;">ranking of chai lattes</span> on oat milk in Aarhus (LYNFabbriken is winning)</li>
+            <li>I've never eaten pizza in <span style="font-weight: bold;">Italy</span> and I think it's scandalous.</li>
+            <li>I’m a big fan of <a href="https://www.oatly.com/en-gb/stuff-we-make/oat-drinks/oat-drink-barista-edition" target="_blank"><span style="font-weight: bold;">Oatly’s</span></a> tone of voice.</li>
             <li>I like to keep things a bit silly :)</li>
-            <li>I went skydiving once, but my fear of hights hasn’t disappeared</li>
+            <li>I went <span style="font-weight: bold;">skydiving</span> once, but my <span style="font-weight: bold;">fear of hights</span> hasn’t disappeared.</li>
           </ul>
           </div>
-          <img src="/img/cat.svg" alt="doodle of the cat looking at the list of fun facts" class="cat">
+          <img src="/img/cat/cat.svg" alt="doodle of the cat looking at the list of fun facts" class="cat">
         </section>
+
         <!--Last cta-->
-        <!--
-      <section id="lastcta">
-        <img src="/img/sageWaveTop.svg" class="waves">
-        <h3>Let's create something great together</h3>
-        <p>Like actual content instead of text holders</p>
-        <button class="secondary-cta">See about me</button>
+        <section id="lastcta">
+          <img src="/img/sageWaveTop.svg" class="waves">
+        <h3>Do you have an idea brewing? </h3>
+        <p>Let's talk about it over some tea</p>
+        <p id="feedback">📬 My email is now copied to your clipboard ;)</p>
+        <button class="secondary-cta" onclick="copyContent()">
+          Email me
+        </button>
         <img src="/img/greenWaveBottom.svg" class="waves">
-      </section>-->
+        </section>
     </main>
-    <footer>
-      <!--Contact-->
-      <div class="left">
-        <h3>Marta Zarebska</h3>
-        <div class="iconText">
-          <a href="https://www.linkedin.com/in/marta-zarebska/" target="_blank"><img src="/img/linkedin.svg" alt="LinkedIn"></a>
-          <span class="material-symbols-outlined"> mail</span>
-          <p>martazarebska@plshireme.com</p>
-        </div>
-      </div>
-
-      <div class="right">
-        <!--Navigation-->
-        <div class="column">
-          <h5>Navigation</h5>
-          <a href="index.html">Home</a>
-          <a href="#work">Work</a>
-          <a href="aboutme.html">About me</a>
-        </div>
-
-        <div class="column">
-          <h5>Work</h5>
-          <a href="tcc.html">The Clothing Club</a>
-          <a href="smukfest.html">Smukfest</a>
-          <a href="ecobites.html">EcoBites</a>
-        </div>
-      </div>
+    <footer id="finalFooter">
     </footer>
+    
+    <script src="/js/nav.js"></script>
+    <script src="/js/footer.js"></script>
+    <script defer src="/js/copy.js"></script>
   </body>
 </html>

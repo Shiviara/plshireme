@@ -19,13 +19,35 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 5px;
+  margin-top: 50px;
 }
 
 #banner {
   display: flex;
-  width: 1160px;
+  /*width: 1160px;*/
   align-items: flex-start;
   gap: 80px;
+}
+
+.profilepic {
+  border-radius: 500px;
+  border: 10px solid var(--salmon);
+  position: relative;
+  width: 25vw;
+}
+
+#cat {
+  position: absolute;
+  z-index: 1;
+  right: 10vw;
+  width: 10vw;
+}
+
+#duo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: static;
 }
 
 #whiteWave {
@@ -42,6 +64,12 @@
 
 #hero a {
   text-decoration: none;
+}
+
+/*work in progress*/
+
+#wip {
+  margin-top: 10px !important;
 }
 
 /*Skills*/
@@ -86,6 +114,8 @@
   text-transform: uppercase;
   margin: 0;
   margin-top: 70px;
+  max-width: none;
+  text-align: center;
 }
 
 #skills .material-symbols-outlined {
@@ -119,23 +149,25 @@
   color: var(--truewhite);
 }
 
-/*Last cta*/
-#lastcta {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
-}
-
-#lastcta p,
-#lastcta h3 {
-  color: var(--salmon);
-  margin-top: 0;
-}
-
 /*ELEMENTS*/
 
+/*Up arrow*/
+.arrow {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+
+  padding: 15px;
+  border-radius: 200px;
+  background-color: var(--sage);
+}
+
 /*Project show case*/
+.soon {
+  filter: grayscale(100%);
+}
+
 .project {
   display: flex;
   align-items: flex-start;
@@ -145,7 +177,8 @@
   align-self: stretch;
 }
 
-.project a {
+.project a,
+#me a {
   text-decoration: none;
 }
 
@@ -164,6 +197,11 @@
   align-items: flex-start;
 }
 
+.description h3,
+.description p {
+  margin: 0;
+}
+
 .mock-up {
   filter: drop-shadow(-15px 20px 0px var(--salmon));
   width: 415px;
@@ -175,8 +213,46 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 10px;
+  margin: 20px 0;
 }
 
 .info p {
   font-size: 20px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 900px) {
+  /*Hero*/
+  #hero img {
+    display: none;
+  }
+
+  #hero #banner {
+    width: 90vw;
+    height: 70vh;
+  }
+
+  /*Skills*/
+  #rowBoxes {
+    flex-direction: column;
+  }
+
+  /*Project display*/
+  .project {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .project .mock-up {
+    width: 80vw;
+  }
+
+  .project .description {
+    width: 90vw;
+  }
+
+  .mockR {
+    flex-direction: column-reverse;
+  }
 }

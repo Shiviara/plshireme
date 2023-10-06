@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Clothing Club</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon2.ico">
     <!-- fonts -->
     <div>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,13 +23,7 @@
     <link rel="stylesheet" href="css/projects.css" />
   </head>
   <body>
-    <header class="navbar">
-      <a href="index.html"><h5>Marta Zarebska</h5></a>
-      <div id="navR">
-        <a href="index.html">Work</a>
-        <a href="aboutme.html">About me</a>
-        <button href="#" class="tertiary-cta">View CV</button>
-      </div>
+    <header class="navbar" id="nav">
     </header>
     <main>
       <!--short side nav-->
@@ -40,14 +35,6 @@
         <a href="#Figma">Figma Prototype</a>
         <a href="#conclusion">Reflection</a>
       </div>
-      <!--long side nav
-      <div class="sideNav">
-        <a href="#overview">Overview</a>
-        <a href="#discover">Discover</a>
-        <a href="#define">Define</a>
-        <a href="#develop">Develop</a>
-        <a href="#conclusion">Conclusion</a>
-      </div>-->
       <!--OVERVIEW-->
       <section id="overview">
         <h2>The Clothing Club</h2>
@@ -80,14 +67,14 @@
           <div class="category">
             <h5>Key methods</h5>
             <p>
-              Design thinking, double diamond, semi-structured interviews, user persona, hmw, 2x2 matrix, wireframing,
+              Design thinking, double diamond, semi-structured interviews, audience segmentation, user persona, hmw, 2x2 matrix, wireframing,
               think alound testing, guerrilla testing, prototyping
             </p>
           </div>
         </div>
       </section>
       <section id="client">
-        <h3>Client</h3>
+        <h3>Background</h3>
         <p>
           <span style="font-weight: bold;">The Clothing Club (TCC)</span> is a non-profit, volunteer based organization
           in Aarhus, which works as a <span style="font-weight: bold;">clothing library</span>, where for a set price,
@@ -95,6 +82,14 @@
           existed for 5 years, but they only means of communication with the
           target audience were Instagram and Facebook posts. Recently, they
           decided to rebrand their digital presence and invest in a <span style="font-weight: bold;">website</span>.
+        </p>
+        <p>
+          The <span style="font-weight: bold;">initial goal</span> of the website was to <span style="font-weight: bold;">
+          promote The Clothing Club</span> and sustainable fashion; <span style="font-weight: bold;">give</span> users 
+          <span style="font-weight: bold;">information about</span> the <span style="font-weight: bold;">collection</span>, 
+          <span style="font-weight: bold;">events</span> and the <span style="font-weight: bold;">client</span>; <span style="font-weight: bold;">
+          encourage visitors to join</span> them as members and/or volunteers as well as 
+          <span style="font-weight: bold;">provide a system to manage rentals</span> for TCC’s members and volunteers.
         </p>
       </section>
       <section id="problem">
@@ -108,28 +103,27 @@
       <!--RESEARCH-->
       <section id="discover">
         <h2>Discover</h2>
+
+        <!--Interviews-->
         <div class="textImg">
-          <!--Text-->
-        <article class="textImg">
           <div>
-        <h3>Interviews</h3>
-        <p>
-          We wanted to understand how TCC’s members and potential customers feel
-          about the concept, what are their <span style="font-weight: bold;">reasons for joining</span> and how would
-          they <span style="font-weight: bold;">describe</span> the organization’s <span style="font-weight: bold;">aesthetic</span>. Additionally, TCC was
-          discussing adding a catalogue on their website, so we wanted to learn
-          the opinion of the target audience about it.
-          <p>The examples of questions were:</p>
-          <ul>
-            <li>Why have you started using their service?</li>
-            <li>How would you describe their aesthetic/branding?</li>
-            <li>What do you think can be improved?</li>
-            <li>What might be a leaning argument for you to sign up? (for the potential customers)</li>
-          </ul>
+            <h3>Interviews</h3>
+            <p>
+              We wanted to understand how TCC’s members and potential customers <span style="font-weight: bold;">feel about the concept</span>, 
+              what are their <span style="font-weight: bold;">reasons for joining</span> and how would they 
+              <span style="font-weight: bold;">describe</span> the organization’s <span style="font-weight: bold;">aesthetic</span>. 
+              Additionally, TCC was discussing adding a catalogue on their website, so we wanted to learn the opinion of the target audience about it.
+            <p>The examples of questions were:</p>
+            <ul>
+              <li>Why have you started using their service?</li>
+              <li>How would you describe their aesthetic/branding?</li>
+              <li>What do you think can be improved?</li>
+              <li>What might be a leaning argument for you to sign up? (for the potential customers)</li>
+            </ul>
+          </div>
+          <img src="/img/tcc/branding.png">
         </div>
-        <img src="/img/tcc/branding.png">
-        
-        </div>
+
       </section>
 
       <!--MAPING-->
@@ -137,6 +131,23 @@
         <h2>Define</h2>
         
         <div class="content">
+          <!--Target audience-->
+        <article>
+          <h3>Target Audience Segmentation</h3>
+          <p>
+            Based on desk research and interview with our client we segmented our audience, to navigate their needs better. 
+            We decided that our main target group is going to be <span style="font-weight: bold;">millennial women</span>, 
+            living in <span style="font-weight: bold;">Aarhus</span>, who are open to <span style="font-weight: bold;">thrift shopping</span> 
+            and at least one of their interests is:</p>
+          <ul>
+            <li>saving money</li>
+            <li>living sustainably</li>
+            <li>fashion and experimenting with their style</li>
+          </ul>
+          <p>However, TCC wants to expend in the future their offer to man and non-binary people. Therefore, it was requested that the design 
+            doesn’t appear too feminine, which could discourage their potential future customers.</p>
+        </article>
+
         <!--User persona-->
         <article>
         <h3>User Persona</h3>
@@ -277,7 +288,7 @@
           We had trouble with the layout of "our values" section and we have also realised that the photo doesn’t represent TCC’s message, 
           so we decided to change it to the one that show their values such as community.</p>
       </article>
-      <img src="/img/tcc/desktop-evolution2.png" alt="">
+      <img src="/img/tcc/desktop-evolution2.png" alt="" id="evolution">
 
       <!--Final prototype-->
       <article id="Figma">
@@ -310,34 +321,11 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <!--Contact-->
-      <div class="left">
-        <h3>Marta Zarebska</h3>
-        <div class="iconText">
-          <a href="https://www.linkedin.com/in/marta-zarebska/" target="_blank"><img src="/img/linkedin.svg" alt="LinkedIn"></a>
-          <span class="material-symbols-outlined"> mail</span>
-          <p>martazarebska@plshireme.com</p>
-        </div>
-      </div>
-
-      <div class="right">
-        <!--Navigation-->
-        <div class="column">
-          <h5>Navigation</h5>
-          <a href="index.html">Home</a>
-          <a href="#work">Work</a>
-          <a href="aboutme.html">About me</a>
-        </div>
-
-        <div class="column">
-          <h5>Work</h5>
-          <a href="tcc.html">The Clothing Club</a>
-          <a href="smukfest.html">Smukfest</a>
-          <a href="ecobites.html">EcoBites</a>
-        </div>
-      </div>
+    <footer id="finalFooter">
     </footer>
-    <script src="projects.js"></script>
+    
+    <script src="/js/nav.js"></script>
+    <script src="/js/footer.js"></script>
+    <script defer src="/js/projects.js"></script>
   </body>
 </html>
