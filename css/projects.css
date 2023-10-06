@@ -102,6 +102,15 @@ article img {
   width: auto;
 }
 
+.imgColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 /*SECTIONS*/
 
 /*Overview*/
@@ -177,6 +186,20 @@ article img {
   max-width: 500px;
 }
 
+/*ECOBITES*/
+/*Features*/
+
+#features {
+  width: 40vw;
+}
+
+/*Low-fi*/
+
+#low-fi-ecobites img {
+  height: auto;
+  width: 20vw;
+}
+
 @media only screen and (max-width: 900px) {
   .sideNav {
     display: none;
@@ -201,11 +224,4 @@ article img {
   iframe {
     width: 90vw;
   }
-}
-
-/*ECOBITES*/
-/*Features*/
-
-#features {
-  width: 40vw;
 }
