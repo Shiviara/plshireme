@@ -200,6 +200,7 @@ article img {
 
 #features {
   width: 40vw;
+  background-color: var(--truewhite);
 }
 
 /*Low-fi*/
