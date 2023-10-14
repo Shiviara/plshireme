@@ -49,6 +49,21 @@ window.addEventListener("scroll", () => {
 });
 
 //Change position of side nav on scroll by ChatGPT
+/*
+const sideNav = document.querySelector(".sideNav");
+const banner = document.getElementById("banner");
+const bannerHeight = banner.offsetHeight;
+
+window.addEventListener("scroll", () => {
+  const scrollTop = window.scrollY;
+
+  if (scrollTop > bannerHeight) {
+    sideNav.style.top = "45vh";
+  } else {
+    sideNav.style.top = "500px";
+  }
+});
+*/
 const sideNav = document.querySelector(".sideNav");
 const banner = document.getElementById("banner");
 const bannerHeight = banner.offsetHeight;
