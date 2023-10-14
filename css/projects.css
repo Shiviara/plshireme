@@ -40,7 +40,7 @@ li {
   z-index: 1;
   right: 0;
   overflow-x: hidden;
-  top: 45vh;
+  top: 500px;
   /*flex box*/
   display: flex;
   flex-direction: column;
