@@ -130,15 +130,8 @@ article img {
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
-  background-color: #0c727d;
-  color: var(--truewhite);
-  padding-left: 12vw;
-  padding-right: 0;
+  padding: 0 12vw;
   padding-top: 120px;
-}
-
-#banner p {
-  color: var(--truewhite);
 }
 
 #banner-text {
@@ -147,10 +140,37 @@ article img {
   gap: 10px;
 }
 
+/*tcc*/
+
+.banner-tcc {
+  color: var(--truewhite);
+  background-color: #0c727d;
+  color: var(--truewhite);
+  padding-right: 0;
+}
+
+.banner-tcc p {
+  color: var(--truewhite);
+}
+
 #title-tcc {
   text-shadow: none;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
+}
+
+/*ecobites*/
+
+.banner-eco {
+  color: var(--textblack);
+  background-color: var(--truewhite);
+}
+
+#title-eco {
+  text-shadow: none;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  color: var(--textblack);
 }
 
 /*Overview*/
