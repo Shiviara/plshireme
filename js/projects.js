@@ -49,6 +49,8 @@ window.addEventListener("scroll", () => {
 });
 
 //Change position of side nav on scroll by ChatGPT
+
+//#1 - sudden change of the position
 /*
 const sideNav = document.querySelector(".sideNav");
 const banner = document.getElementById("banner");
@@ -64,6 +66,9 @@ window.addEventListener("scroll", () => {
   }
 });
 */
+
+//#2 - smooth, but side nav overlaps with banner
+/*
 const sideNav = document.querySelector(".sideNav");
 const banner = document.getElementById("banner");
 const bannerHeight = banner.offsetHeight;
@@ -77,3 +82,23 @@ window.addEventListener("scroll", () => {
     sideNav.style.top = "500px";
   }
 });
+*/
+
+//#3 side nav shows-up form below on scroll
+const sideNav = document.querySelector(".sideNav");
+const banner = document.getElementById("banner");
+const overviewSection = document.getElementById("overview");
+const bannerHeight = banner.offsetHeight;
+
+function adjustSideNavPosition() {
+  const scrollTop = window.scrollY;
+
+  if (scrollTop > bannerHeight) {
+    sideNav.style.top = "45vh";
+  } else {
+    sideNav.style.top = `calc(45vh + ${bannerHeight - scrollTop}px)`;
+  }
+}
+
+window.addEventListener("scroll", adjustSideNavPosition);
+window.addEventListener("load", adjustSideNavPosition); // Additional event listener for initial position adjustment
