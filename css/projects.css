@@ -121,6 +121,34 @@ article img {
 }
 
 /*SECTIONS*/
+/*Banner*/
+#banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #0c727d;
+  color: var(--truewhite);
+  padding-left: 12vw;
+  padding-right: 0;
+  padding-top: 120px;
+}
+
+#banner p {
+  color: var(--truewhite);
+}
+
+#banner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#title-tcc {
+  text-shadow: none;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
 
 /*Overview*/
 #overview h4 {
@@ -215,8 +243,18 @@ article img {
     display: none;
   }
 
+  #banner {
+    flex-direction: column;
+    padding: 0;
+    padding-top: 70px;
+  }
+
+  #banner-text {
+    padding: 50px 20px;
+  }
+
   #overview {
-    padding-top: 100px;
+    padding-top: 20px;
   }
 
   .textImg {
