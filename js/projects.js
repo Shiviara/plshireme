@@ -84,7 +84,8 @@ window.addEventListener("scroll", () => {
 });
 */
 
-//#3 side nav shows-up form below on scroll
+//#3 side nav shows-up form below on scroll (on accident)
+/*
 const sideNav = document.querySelector(".sideNav");
 const banner = document.getElementById("banner");
 const overviewSection = document.getElementById("overview");
@@ -102,3 +103,22 @@ function adjustSideNavPosition() {
 
 window.addEventListener("scroll", adjustSideNavPosition);
 window.addEventListener("load", adjustSideNavPosition); // Additional event listener for initial position adjustment
+*/
+
+//#4 side nav pops-up on purpose
+const sideNav = document.querySelector(".sideNav");
+const banner = document.getElementById("banner");
+const bannerHeight = banner.offsetHeight;
+
+function adjustSideNavPosition() {
+  const scrollTop = window.scrollY;
+
+  if (scrollTop > bannerHeight) {
+    sideNav.style.top = "45vh";
+  } else {
+    sideNav.style.top = `${100 - (scrollTop / bannerHeight) * 55}vh`;
+  }
+}
+
+window.addEventListener("scroll", adjustSideNavPosition);
+window.addEventListener("load", adjustSideNavPosition);

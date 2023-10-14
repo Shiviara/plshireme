@@ -42,7 +42,8 @@ li {
   overflow-x: hidden;
   /*change position*/
   transition: top 0.5s ease; /* Added transition property */
-  top: calc(45vh + 120px);
+  /*top: calc(45vh + 120px);*/
+  top: 100vh;
   /*flex box*/
   display: flex;
   flex-direction: column;
