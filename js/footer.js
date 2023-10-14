@@ -27,7 +27,7 @@ const Footer = `
             <h5>Work</h5>
             <a href="tcc.html">The Clothing Club</a>
           <a href="">Smukfest</a>
-          <a href="">EcoBites</a>
+          <a href="ecobites.html">EcoBites</a>
             </div>
         </div>
 `;
