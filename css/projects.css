@@ -166,11 +166,30 @@ article img {
   background-color: var(--truewhite);
 }
 
+.banner-eco p {
+  font-family: "Poppins", sans-serif;
+  color: var(--textblack);
+}
+
 #title-eco {
   text-shadow: none;
   font-family: "Poppins", sans-serif;
+  font-weight: normal;
   text-transform: capitalize;
   color: var(--textblack);
+  margin-top: 10vh;
+}
+
+.banner-eco h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: var(--textblack);
+  font-size: 20px;
+  margin: 0;
+}
+
+#scraps {
+  width: fit-content;
 }
 
 /*Overview*/
@@ -294,5 +313,10 @@ article img {
 
   iframe {
     width: 90vw;
+  }
+
+  /*banners*/
+  #title-eco {
+    margin-top: 0;
   }
 }
