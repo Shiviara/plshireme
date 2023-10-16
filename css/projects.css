@@ -146,7 +146,7 @@ article img {
   color: var(--truewhite);
   background-color: #0c727d;
   color: var(--truewhite);
-  padding-right: 0;
+  padding-right: 0 !important;
 }
 
 .banner-tcc p {
@@ -318,5 +318,11 @@ article img {
   /*banners*/
   #title-eco {
     margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #banner {
+    height: 55vh;
   }
 }
