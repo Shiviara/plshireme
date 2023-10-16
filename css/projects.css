@@ -40,7 +40,10 @@ li {
   z-index: 1;
   right: 0;
   overflow-x: hidden;
-  top: 45vh;
+  /*change position*/
+  transition: top 0.5s ease; /* Added transition property */
+  /*top: calc(45vh + 120px);*/
+  top: 100vh;
   /*flex box*/
   display: flex;
   flex-direction: column;
@@ -121,6 +124,73 @@ article img {
 }
 
 /*SECTIONS*/
+/*Banner*/
+#banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 12vw;
+  padding-top: 120px;
+}
+
+#banner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/*tcc*/
+
+.banner-tcc {
+  color: var(--truewhite);
+  background-color: #0c727d;
+  color: var(--truewhite);
+  padding-right: 0 !important;
+}
+
+.banner-tcc p {
+  color: var(--truewhite);
+}
+
+#title-tcc {
+  text-shadow: none;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+
+/*ecobites*/
+
+.banner-eco {
+  color: var(--textblack);
+  background-color: var(--truewhite);
+}
+
+.banner-eco p {
+  font-family: "Poppins", sans-serif;
+  color: var(--textblack);
+}
+
+#title-eco {
+  text-shadow: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  text-transform: capitalize;
+  color: var(--textblack);
+  margin-top: 10vh;
+}
+
+.banner-eco h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: var(--textblack);
+  font-size: 20px;
+  margin: 0;
+}
+
+#scraps {
+  width: fit-content;
+}
 
 /*Overview*/
 #overview h4 {
@@ -215,8 +285,18 @@ article img {
     display: none;
   }
 
+  #banner {
+    flex-direction: column;
+    padding: 0;
+    padding-top: 70px;
+  }
+
+  #banner-text {
+    padding: 50px 20px;
+  }
+
   #overview {
-    padding-top: 100px;
+    padding-top: 20px;
   }
 
   .textImg {
@@ -233,5 +313,16 @@ article img {
 
   iframe {
     width: 90vw;
+  }
+
+  /*banners*/
+  #title-eco {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #banner {
+    height: 55vh;
   }
 }
