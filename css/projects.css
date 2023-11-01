@@ -114,6 +114,11 @@ article img {
   width: auto;
 }
 
+#gifs img {
+  border-radius: 16px;
+  outline: 5px solid black;
+}
+
 .imgColumn {
   display: flex;
   flex-direction: column;
@@ -145,7 +150,6 @@ article img {
 .banner-tcc {
   color: var(--truewhite);
   background-color: #0c727d;
-  color: var(--truewhite);
   padding-right: 0 !important;
 }
 
@@ -190,6 +194,38 @@ article img {
 
 #scraps {
   width: fit-content;
+}
+
+/*Smukfest*/
+.banner-smuk {
+  color: var(--truewhite);
+  background-color: #27573d;
+  height: 47vh !important;
+  padding-top: 170px !important;
+  position: relative;
+}
+
+.banner-smuk p {
+  color: var(--truewhite);
+  font-family: "Lato", sans-serif;
+  /*text-transform: uppercase;*/
+  line-height: 160%; /* 19.2px */
+  letter-spacing: 1.44px;
+}
+
+#title-smuk {
+  text-shadow: none;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-size: 4vw;
+  letter-spacing: 5.76px;
+}
+
+#smukwave {
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100vw;
 }
 
 /*Overview*/
