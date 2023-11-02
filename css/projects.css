@@ -21,6 +21,10 @@ h3 {
   margin-top: 0;
 }
 
+h4 {
+  color: var(--bottle);
+}
+
 #Figma a {
   text-decoration: none;
 }
