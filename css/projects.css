@@ -228,6 +228,11 @@ article img {
   width: 100vw;
 }
 
+#smuklogo {
+  height: 100%;
+  width: auto;
+}
+
 /*Overview*/
 #overview h4 {
   color: var(--salmon);

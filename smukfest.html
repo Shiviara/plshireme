@@ -84,23 +84,31 @@
       </section>
       <section id="client">
         <h3>Background</h3>
-        <p>
-          Smukfest, Denmark’s oldest music festival, in 2022 introduced the Min Smukfest app in collaboration with IMB,
-          aiming to
-          elevate the festival experience with experimental features. However, given it was a first version, the app
-          wasn’t
-          popular among festival attendees and there was some room for improvement.
-        </p>
-        <p>
-          During the project we were given a task by IBM to redesign the Min Smukfest app, while paying extra attention
-          to:
-        </p>
-        <ul>
-          <li>enhancing user experience</li>
-          <li>improving engagement</li>
-          <li>on-boarding the users more</li>
-          <li>making the UI consistent with Smukfest’s new website</li>
-        </ul>
+        <div class="textImg">
+          <div>
+            <p>
+              Smukfest, Denmark’s oldest music festival, in 2022 introduced the Min Smukfest app in collaboration with
+              IMB,
+              aiming to
+              elevate the festival experience with experimental features. However, given it was a first version, the app
+              wasn’t
+              popular among festival attendees and there was some room for improvement.
+            </p>
+            <p>
+              During the project we were given a task by IBM to redesign the Min Smukfest app, while paying extra
+              attention
+              to:
+            </p>
+            <ul>
+              <li>enhancing user experience</li>
+              <li>improving engagement</li>
+              <li>on-boarding the users more</li>
+              <li>making the UI consistent with Smukfest’s new website</li>
+            </ul>
+          </div>
+          <img src="/img/smukfest/smukLogo.png" alt="Logo of Min Smukfest - green circle with yellow SMUK! inside"
+            id="smuklogo">
+        </div>
       </section>
       <section id="problem">
         <h3>Problem statement</h3>
@@ -132,6 +140,13 @@
               <li>Just fun - an offshoot of “Beautiful memories”, this feature uses sales data to provide users with a
                 live overview of
             </ul>
+            <div class="Threepics">
+              <img src="/img/smukfest/screens/old-home.png" alt="">
+              <img src="/img/smukfest/screens/old-map.png" alt="">
+              <img src="/img/smukfest/screens/old-filter.png" alt="">
+              <img src="/img/smukfest/screens/old-group.png" alt="">
+              <img src="/img/smukfest/screens/old-fun.png" alt="">
+            </div>
           </article>
 
           <!--Target audience-->
@@ -176,34 +191,19 @@
             <p>It also re-established a need for find your friend feature.</p>
           </article>
 
-          <!--User persona-->
-          <article>
-            <h3>User Persona</h3>
-
-          </article>
-
-          <!--Matrix-->
-          <article class="textImg">
-            <div>
-              <h3>2x2 Matrix</h3>
-              <p>To prioritise what features we should focus on in our version of the app we used 2x2 Matrix.
-              </p>
-            </div>
-            <img src="/img/smukfest/matrix.png">
-          </article>
-
           <!--HMW-->
           <article id="hmw">
             <h3>How Might We</h3>
             <div class="textImg">
               <div id="goals">
-                <p>Then we formed how might we questions for our 3 main goals, to come up with more ideas for features
-                  that could help us
-                  reach them.</p>
+                <p>
+                  First we prioritised our ideas using 2x2 Matrix and then we formed how might we questions for our 3
+                  main goals, to come
+                  up with more features that could help us reach them.
+                </p>
               </div>
               <img src="/img/smukfest/hmw.png" alt="">
             </div>
-            <div class="textImg">
           </article>
 
         </div>
@@ -244,12 +244,24 @@
             </div>
           </article>
 
+          <!--Style tile-->
+          <article id="styletile">
+            <h3>Style tile</h3>
+            <div class="textImg">
+              <p>
+                After low-fi wireframe, we created style tiles, based on Smukfest’s website and the design guide given
+                to us by IBM, to
+                ensure consistent design throughout the app.
+              </p>
+              <img src="/img/smukfest/StyleTile.png" alt="">
+            </div>
+          </article>
+
           <!--High fi-->
           <article id="highFi">
             <h3>High-fi Wireframes</h3>
             <p>For the high-fi we implemented feedback from testing and focused more on the UI of the app. We wanted it
-              to have a fun
-              and casual atmosphere.
+              to have a fun and casual atmosphere, but at the same time not to bee too distracting for the user.
             </p>
             <p>
               I was responsible for designing:
@@ -257,24 +269,32 @@
               <li>groups for find your friend feature</li>
               <li>profile</li>
               <li>QR scanning flow</li>
+              <li>settings</li>
               <li>the wave at the top of each page</li>
             </ul>
             </p>
+            <p>
+              To optimise the Find your friend feature, every user has their unique QR code in their profile that can
+              be scanned while
+              being added to a group instead of searching for their username. Another way to join the group is to scan
+              group’s QR code.
+            </p>
             <div class="Threepics" id="gifs">
-              <img src="/img/smukfest/QR.gif" alt="">
-              <img src="/img/smukfest/pin.gif" alt="">
-              <img src="/img/smukfest/add-friend.gif" alt="">
-              <img src="/img/smukfest/hamburger-menu.gif" alt="">
+              <img src="/img/smukfest/screens/groupfinal.png" alt="">
+              <img src="/img/smukfest/screens/profile.png" alt="">
+              <img src="/img/smukfest/screens/Settings.png" alt="">
+              <img src="/img/smukfest/screens/add-friend.gif" alt="">
+              <img src="/img/smukfest/screens/QR.gif" alt="">
             </div>
           </article>
 
-          <!--Testing-->
+          <!--Testing
           <article id="testing">
             <h3>Testing</h3>
             <div class="textImg">
               <p>a</p>
             </div>
-          </article>
+          </article>-->
 
           <!--Final prototype-->
           <article id="Figma">
@@ -292,12 +312,23 @@
       <section id="conclusion">
         <h2>Reflection</h2>
         <ul>
-          <li></li>
           <li>
+            Collaborating with IBM <span style="font-weight: bold;">taught me to consider to potential</span> outcomes
+            of features,
+            such as <span style="font-weight: bold;">data leaks</span> and too big <span
+              style="font-weight: bold;">storage needs</span>.
           </li>
-          <li></li>
-          <li></li>
-          <li><span style="font-weight: bold;">Communicating with stakeholder is challenging</span></li>
+          <li>I’ve <span style="font-weight: bold;">learnt</span> how to use <span
+              style="font-weight: bold;">hierarchy</span> for the typography, but, on the reflection, the “see group’s
+            location”
+            button should
+            have stand out more than “add a friend”.</li>
+          <li>
+            In hindsight we <span style="font-weight: bold;">shouldn’t have written the text in all caps</span>, which
+            we haven’t initially noticed because of
+            little amount
+            of it.
+          </li>
         </ul>
       </section>
       <footer id="finalFooter"></footer>
