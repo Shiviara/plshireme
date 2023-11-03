@@ -17,17 +17,17 @@ const Footer = `
 
             <!--Navigation-->
             <div class="column">
-            <h5>Navigation</h5>
-            <a href="portfolio.html">Home</a>
-            <a href="portfolio.html">Work</a>
-            <a href="aboutme.html">About me</a>
+              <h5>Navigation</h5>
+              <a href="portfolio.html">Home</a>
+              <a href="portfolio.html">Work</a>
+              <a href="aboutme.html">About me</a>
             </div>
 
             <div class="column">
-            <h5>Work</h5>
-            <a href="tcc.html">The Clothing Club</a>
-          <a href="">Smukfest</a>
-          <a href="ecobites.html">EcoBites</a>
+              <h5>Work</h5>
+              <a href="tcc.html">The Clothing Club</a>
+              <a href="smukfest.html">Smukfest</a>
+              <a href="ecobites.html">EcoBites</a>
             </div>
         </div>
 `;
