@@ -249,16 +249,17 @@ article img {
 .banner-mm p {
   color: var(--truewhite);
   font-family: "DM Sans", sans-serif;
-  /*text-transform: uppercase;*/
-  line-height: 160%; /* 19.2px */
-  letter-spacing: 1.44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 #title-mm {
   text-shadow: none;
   font-family: "DM Sans", sans-serif;
   font-size: 4vw;
-  letter-spacing: 5.76px;
+  letter-spacing: normal;
+  text-transform: capitalize;
 }
 
 /*Overview*/
