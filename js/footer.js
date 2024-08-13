@@ -10,7 +10,7 @@ const Footer = `
               <p>martazarebska@plshireme.com</p>
               </div>
           </div>
-        <p id="madeby">Designed & developed by me 2023</p>
+        <p id="madeby">Designed & developed by me 2024</p>
         </div>
 
         <div class="right">
