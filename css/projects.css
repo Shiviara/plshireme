@@ -237,6 +237,31 @@ article img {
   width: auto;
 }
 
+/*Mobilize Me*/
+.banner-mm {
+  color: black;
+  background-color: #6b7191;
+  height: 47vh !important;
+  padding-top: 170px !important;
+  position: relative;
+}
+
+.banner-mm p {
+  color: var(--truewhite);
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#title-mm {
+  text-shadow: none;
+  font-family: "DM Sans", sans-serif;
+  font-size: 4vw;
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
+
 /*Overview*/
 #overview h4 {
   color: var(--salmon);
