@@ -132,6 +132,10 @@ article img {
   gap: 20px;
 }
 
+#flow img {
+  width: 40vw;
+}
+
 /*SECTIONS*/
 /*Banner*/
 #banner {
