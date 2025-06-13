@@ -266,6 +266,16 @@ article img {
   text-transform: capitalize;
 }
 
+#mm-sketch-main {
+  height: auto;
+  width: 50%;
+}
+
+#mm-tooltips {
+  height: 18vw;
+  width: auto;
+}
+
 /*Overview*/
 #overview h4 {
   color: var(--salmon);
