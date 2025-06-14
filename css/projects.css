@@ -266,6 +266,11 @@ article img {
   text-transform: capitalize;
 }
 
+#mm-old-solution img {
+  width: auto;
+  height: 19vw;
+}
+
 #mm-sketch-main {
   height: auto;
   width: 50%;
