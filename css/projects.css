@@ -271,6 +271,11 @@ article img {
   height: 19vw;
 }
 
+#mm-design-system img {
+  height: auto;
+  width: 23vw;
+}
+
 #mm-sketch-main {
   height: auto;
   width: 50%;
