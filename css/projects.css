@@ -281,6 +281,15 @@ article img {
   width: 50%;
 }
 
+#onboarding .Threepics {
+  margin: 0;
+}
+
+#onboarding h5 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
 /*Overview*/
 #overview h4 {
   color: var(--salmon);
