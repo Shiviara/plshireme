@@ -36,6 +36,7 @@
             <a href="#discover">Discover</a>
             <a href="#define">Define</a>
             <a href="#develop">Develop</a>
+            <a href="#onboarding">Onboarding</a>
             <a href="#Figma">Figma Prototype</a>
             <a href="#conclusion">Reflection</a>
         </div>
@@ -44,9 +45,12 @@
             <div id="banner-text">
                 <h1 id="title-mm">Mobilize Me</h1>
                 <p>
-                    Designing new administration panel for Mobilize Me and PlaNet apps, which enables admins to manage
-                    users in the system.
-                    The goal was to merge their existing admin panels, while making the using the system seamless and
+                    Designing new <span style="font-weight: bold;">administration panel</span> for
+                    <span style="font-weight: bold;">Mobilize Me</span> and <span
+                        style="font-weight: bold;">PlaNet</span> apps, which enables admins to manage users in the
+                    system.
+                    The goal was to <span style="font-weight: bold;">merge their existing admin panels</span>, while
+                    making the using the system seamless and
                     <span style="font-weight: bold;">easier to learn</span>.
                 </p>
             </div>
@@ -72,23 +76,48 @@
                 </div>
                 <div class="category">
                     <h5>Focus area</h5>
-                    <p>Administration Panel</p>
+                    <p>Administration Panel
+                    <p>Onboarding</p>
+                    <p>Information architecture</p>
+                    <p>UX writing</p>
                 </div>
                 <div class="category">
                     <h5>Key methods</h5>
                     <p>
-                        Design thinking, double diamond, hmw, 2x2 matrix, wireframing,
-                        think alound testing, guerrilla testing, prototyping
+                        Design thinking, double diamond, interviews, user flow, hmw, 2x2 matrix, wireframing,
+                        think alound testing, guerrilla testing, prototyping, design system
                     </p>
                 </div>
             </div>
         </section>
+
         <section id="client">
             <h3>Background</h3>
-            <p>
-                Mobilize Me is..
-            </p>
+            <div class="textImg">
+                <p>
+                    <span style="font-weight: bold;">Mobilize Me provides neurodivergent people with digital
+                        tools</span> to
+                    give them more structure in life. They have created 2
+                    apps for that purpose - <span style="font-weight: bold;">daily planners: Mobilize Me and
+                        PlaNet</span>.
+                    Both allow a family member or a caretaker of the user to
+                    contribute to the process and provide more detailed instructions to each task. Those apps <span
+                        style="font-weight: bold;">can also be used by
+                        institutions</span> - such as schools, where they can be used by teachers to give more structure
+                    to
+                    the students, who need it.
+                    However, for that to work the <span style="font-weight: bold;">institutions need</span> to use <span
+                        style="font-weight: bold;">administration panel</span> to add and manage all the users. So far,
+                    <span style="font-weight: bold;">Mobilize Me and PlaNet had separate admin panels</span>, which were
+                    quite outdated and hard to use, so the <span style="font-weight: bold;">company decided to
+                        merge them</span> into one <span style="font-weight: bold;">and improve their
+                        learnability</span>.
+                </p>
+                <img src="./img/mm/logo.png" alt="Logo of Mobilize Me - a purple circle with a person inside"
+                    id="smuklogo">
+            </div>
         </section>
+
         <section id="problem">
             <h3>Problem statement</h3>
             <p>
@@ -103,39 +132,85 @@
         <section id="discover">
             <h2>Discover</h2>
 
-            <!--Analysis of existing solution-->
-            <div>
-                <div>
-                    <h3>Analysis of existing solutions</h3>
-                    <p>
-                        First...
-                    </p>
-                </div>
-                <div class="Twopics">
-                    <div class="Threepics">
-                        <img src="/img/tcc/causeSketch.png" alt="">
-                        <img src="/img/tcc/causeLow.png" alt="">
-                        <img src="/img/tcc/causePics.png" alt="">
-                    </div>
-                    <div class="Threepics">
-                        <img src="/img/tcc/eventsSketch.png" alt="">
-                        <img src="/img/tcc/eventsLow.png" alt="">
-                    </div>
-                </div>
-            </div>
+            <div class="content">
+                <!--Analysis of existing solution-->
+                <article class="textImg">
+                    <div>
+                        <h3>Analysis of existing solutions</h3>
+                        <p>
+                            I started the process with analysing the existing solutions to understand how the current
+                            systems work and find their
+                            drawbacks.
+                        </p>
+                        <p>Overall, the <span style="font-weight: bold;">administration panels are working ok</span> as
+                            a tool to perform the tasks that admin
+                            has,
+                            but they are <span style="font-weight: bold;">not very
+                                intuitive</span> and are <span style="font-weight: bold;">rather outdated</span>. The
+                            <span style="font-weight: bold;">user experience could be vastly improved with</span> usage
+                            of
+                            the <span style="font-weight: bold;">Usability Heuristics</span>
+                            to communicate to users better how to perform certain actions and explain some processes to
+                            them.
+                        </p>
 
-            <!--Interviews-->
-            <div class="textImg">
-                <div>
-                    <h3>Interviews</h3>
+                        <div class="Twopics" id="mm-old-solution">
+                            <img src="/img/mm/MM-admin-panel.png" alt="">
+                            <img src="/img/mm/PN-admin-panel.png" alt="">
+                        </div>
+
+                        <h4>Usability test</h4>
+                        <p>
+                            In order to see what elements a regular user may struggle with and what works well, I
+                            decided to perform usability tests. As a result <span style="font-weight: bold;">the main
+                                problems of existing solutions are</span>:
+                        </p>
+                        <ul>
+                            <li><span style="font-weight: bold;">confusing labels</span> and names</li>
+                            <li><span style="font-weight: bold;">forming and managing relationships</span> between users
+                            </li>
+                            <li><span style="font-weight: bold;">moving users</span> to different groups</li>
+                            <li>time spend on <span style="font-weight: bold;">creating new users</span></li>
+                            <li><span style="font-weight: bold;">navigating groups</span> and subgroups when there are
+                                many of them (for the big admins)</li>
+                            <li>outdated visuals</li>
+                        </ul>
+                        <p>
+                            On the other hand basic features such as creating and editing both users and groups seemed
+                            to be intuitive. Similarly, was searching for a particular person in the system.
+                        </p>
+                        <p>
+                            Some <span style="font-weight: bold;">notable ideas</span> were to
+                            <span style="font-weight: bold;">put “add users” button inside a group</span> as well as to
+                            <span style="font-weight: bold;">enable planners to plan for a group</span> instead of only
+                            individuals.
+                        </p>
+                    </div>
+                </article>
+
+                <!--Target audience-->
+                <article>
+                    <h3>Target audience</h3>
                     <p>
-                        We wanted to understand how TCC’s members and potential customers
-                    <p>The examples of questions were:</p>
-                    <ul>
-                        <li>Why have you started using their service?</li>
-                    </ul>
-                </div>
-                <img src="/img/tcc/branding.png">
+                        The <span style="font-weight: bold;">target group</span> turned out to be very niche and
+                        hard the generalise. Those users usually are either the <span
+                            style="font-weight: bold;">Mobilize Me employees</span> or <span
+                            style="font-weight: bold;">administrator chosen by the given
+                            institution</span> (e.g. special school), who according to my client could be
+                        somebody young and more tech-savvy or somebody in a boss position and older, who may
+                        struggle more with technology. Therefore, during the design stage of my solution <span
+                            style="font-weight: bold;">I will keep in mind the extreme users, who
+                            may struggle with technology</span> and ensure that the new system will support them
+                        with clear naming and in-app explanation of the features as
+                        well as prevent them from making fatal mistakes.
+                    </p>
+                    <p>
+                        What I knew about my <span style="font-weight: bold;">target audience is</span> that they
+                        are most likely to be <span style="font-weight: bold;">Danish adults, working with
+                            individuals with cognitive disabilities</span>.
+                    </p>
+                </article>
+
             </div>
 
         </section>
@@ -145,76 +220,71 @@
             <h2>Define</h2>
 
             <div class="content">
-                <!--Target audience-->
-                <article>
-                    <h3>Target Audience</h3>
-                    <p>???
-                    </p>
+                <!--VPC-->
+                <article class="textImg">
+                    <div>
+                        <h3>Value Proposition Canvas</h3>
+                        <p>To <span style="font-weight: bold;">understand the user problems</span>, their relationship
+                            between with the system and <span style="font-weight: bold;">ensure the
+                                solution covers all user tasks</span>, I created a VPC based on interviews and company
+                            meetings. I
+                            mapped it from a school employee's perspective to better identify customer jobs. This helped
+                            me understand user problems and focus on creating solutions for them.
+                        </p>
+                        <p>The <span style="font-weight: bold;">biggest pain points</span> identified were:</p>
+                        <ul>
+                            <li>time-consuming process of <span style="font-weight: bold;">adding multiple new
+                                    users</span></li>
+                            <li><span style="font-weight: bold;">keeping track of relations between users</span></li>
+                            <li>navigating through long lists of users and groups</li>
+                        </ul>
+                        <p>As a result of this mapping I gathered <span style="font-weight: bold;">feature ideas</span>
+                            such as:</p>
+                        <ul>
+                            <li><span style="font-weight: bold;">excel sheet importing</span> for bulk user creation
+                            </li>
+                            <li><span style="font-weight: bold;">displaying relations in user profile</span></li>
+                            <li>displaying <span style="font-weight: bold;">subgroups as drop-downs</span></li>
+                            <li><span style="font-weight: bold;">search bar</span> for both groups and users</li>
+                        </ul>
+                    </div>
+                    <img src="/img/mm/VPC.png">
                 </article>
 
-                <!--HMW-->
-                <article id="hmw">
-                    <h3>How Might We</h3>
-                    <div class="textImg">
-                        <div id="goals">
-                            <p>We formed How Might We questions to <span style="font-weight: bold;">ideate on the
-                                    potential
-                                    solutions</span> for the problems our users might face while using the website.
-                                First, we took our long-term and short-term goals for the solution from our previous
-                                research, in spirit
-                                of:
-                            <ul>
-                                <li>Promoting sustainability</li>
-                                <li>Attracting new members</li>
-                                <li>Creating an open and supportive community</li>
-                            </ul>
-                            </p>
-                            <p>We voted for the most important and achievable outcomes</p>
-                        </div>
-                        <img src="/img/tcc/goals.png" alt="">
-                    </div>
-                    <div class="textImg">
-
-                        <div>
-                            <p>Later we took those challenges and we asked ourselves <span
-                                    style="font-style: italic;">how might
-                                    we</span> solve them.
-                                That way we ended up with potential solutions to the problems. </p>
-                            <p>Again, we voted for those that we thought were applicable to our users’ needs. As a
-                                result, we
-                                gathered:
-                            <ul>
-                                <li>a <span style="font-weight: bold;">lookbook</span></li>
-                                <li>a <span style="font-weight: bold;">reminder</span> of the return date for rentals
-                                </li>
-                                <li>good <span style="font-weight: bold;">SEO</span> words</li>
-                                <li>highlighting <span style="font-weight: bold;">events</span> on the front page</li>
-                            </ul>
-                            </p>
-                        </div>
-                        <img src="/img/tcc/opportunities.png" alt="">
-                    </div>
-                </article>
-
-                <!--Matrix-->
+                <!--Matrix
                 <article class="textImg">
                     <div>
                         <h3>2x2 Matrix</h3>
-                        <p>After the entire process of HMW we picked some ideas from it and put them into a 2x2 Matrix
-                            to <span style="font-weight: bold;">prioritize them by the impact</span> on users <span
-                                style="font-weight: bold;">and the effort</span>
-                            they require. That helped us decide which features we should work on and which ones we can
-                            postpone. </p>
-                        <p>At that point, we decided not to pursue the catalogue with clothes and the back system to
-                            manage the
-                            membership.
-                            Instead, we prioritized making a <span style="font-weight: bold;">lookbook</span> and a
-                            <span style="font-weight: bold;">front page</span>
-                            with an <span style="font-weight: bold;">original design</span> that will attract new
-                            members.
+                        <p>I put the ideas from usability tests of the existing solution (orange sticky notes) and
+                            HMW
+                            (yellow sticky notes) in the
+                            2x2 Matrix to prioritise them by the impact on users and the effort they require. That
+                            helped me to focus on the high
+                            impact features, such as:
                         </p>
+                        <ul>
+                            <li>Search bar working for both users and groups</li>
+                            <li>forming and managing relationships between users</li>
+                            <li>moving users to different groups</li>
+                            <li>time spend on creating new users</li>
+                        </ul>
                     </div>
-                    <img src="/img/tcc/matrix.png">
+                    <img src="/img/mm/matrix.png">
+                </article>
+            -->
+
+                <!--User Flow-->
+                <article>
+                    <h3>User flow</h3>
+                    <div id="flow">
+                        <p>I created a user flow to plan the order of steps that would be the most natural and
+                            to
+                            later refer to it while sketching
+                            and creating wireframes.
+                        </p>
+
+                        <img src="/img/mm/User-flow.png" alt="">
+                    </div>
                 </article>
             </div>
         </section>
@@ -222,38 +292,48 @@
         <!--DESIGN-->
         <section id="develop">
             <h2>Develop</h2>
-            <p>
-                At that stage we started working on the visual part of the solution. Because of a short deadline,
-                we decided to design <span style="font-weight: bold;">mobile version</span> of the website <span
-                    style="font-weight: bold;">first</span>
-                - primarily to ensure that we will <span style="font-weight: bold;">not overcomplicate the design</span>
-                in a way that later would be hard to translate to other devices.
-            </p>
+
             <div class="content">
                 <!--Low fi-->
-                <article id="lowFi">
+                <article>
                     <h3>Low-fi Wireframes</h3>
                     <p>
-                        First, we <span style="font-weight: bold;">sketched</span> using <span
-                            style="font-weight: bold;">crazy
-                            8</span> method to generate
-                        many ideas in short amount of time. After voting on elements that we liked, we move on to Figma,
-                        to create
-                        low fidelity wireframes
-                        and <span style="font-weight: bold;">focus on on the functionalities</span> rather than the
-                        design.
-                        At that stage we concentrated on following hierarchy rules and application of
-                        the F scanning pattern to ease the users’ reading.
+                        Based on the user flow I’ve sketched different layouts of the administration panel screens to
+                        generate ideas. Then I’ve
+                        recreated the best ones as the low fidelity wireframes in Figma.
                     </p>
-                    <div class="Twopics">
-                        <div class="Threepics">
-                            <img src="/img/tcc/causeSketch.png" alt="">
-                            <img src="/img/tcc/causeLow.png" alt="">
-                            <img src="/img/tcc/causePics.png" alt="">
-                        </div>
-                        <div class="Threepics">
-                            <img src="/img/tcc/eventsSketch.png" alt="">
-                            <img src="/img/tcc/eventsLow.png" alt="">
+                    <p>To address the issue of users getting lost in the big amount of subgroups I decided to create 3
+                        limited types of groups:
+                        institution, subgroup and task group, where subgroups can exist only under institutions and task
+                        groups are only in subgroups. Which minimises the longest possible chain of groups to
+                        institution → subgroup → task group. Task groups (on pic subgroups) were created to allow
+                        planners to assign activities to a
+                        group of people instead of just individuals, thus make their work quicker.
+                    </p>
+                    <p>
+                        At this point <span style="font-weight: bold;">I discarded the feature of bulk user creation due
+                            to logistics</span>. Importing the excel sheet would only provide general user information -
+                        the admins would still need to assign them roles, put them in
+                        groups and create relations - so in fact the creation process would not be much quicker.
+                    </p>
+                </article>
+                <img src="/img/mm/solution/sketch-to-low-main.png" alt="">
+                <img src="/img/mm/solution/sketch-to-low-profile.png" alt="">
+
+                <!--Design system-->
+                <article>
+                    <h3>Design system</h3>
+                    <div id="flow">
+                        <p>
+                            I created a design system in order <span style="font-weight: bold;">to ensure
+                                consistency</span> throughout the solution as well as to <span
+                                style="font-weight: bold;">make the design easy to
+                                use and expand</span> by the company.
+                        </p>
+                        <div class="Twopics" id="mm-design-system">
+                            <img src="/img/mm/Color-palette.png" alt="">
+                            <img src="/img/mm/Typography.png" alt="">
+                            <img src="/img/mm/Atoms.png" alt="">
                         </div>
                     </div>
                 </article>
@@ -261,26 +341,29 @@
                 <!--High fi-->
                 <article id="highFi">
                     <h3>High-fi Wireframes</h3>
-                    <p>For the high fidelity we <span style="font-weight: bold;">implemented the feedback</span> from
-                        testing and
+                    <p>For the high-fidelity wireframes I <span style="font-weight: bold;">implemented the
+                            feedback</span> from testing, replaced placeholder text with content and
                         <span style="font-weight: bold;">focused</span> more <span style="font-weight: bold;">on the
-                            UI</span> of
-                        the solution.
-                        At this stage, not only we added colors and content such as photos and illustrations, but we
-                        also focused
-                        more on design principles.
+                            UI</span>
+                        of the solution. I decided to work with a mostly monochromatic color palette, to
+                        create a cohesive look and ensure that the solution does not seem too overwhelming.
                     </p>
                     <div class="Threepics">
-                        <img src="/img/tcc/screens/hero.svg" alt="">
-                        <img src="/img/tcc/screens/cause.svg" alt="">
-                        <img src="/img/tcc/screens/join.svg" alt="">
+                        <img src="/img/mm/solution/highfi/high-fi-main.png" alt="">
+                        <img src="/img/mm/solution/highfi/high-fi-subgroup.png" alt="">
+                        <img src="/img/mm/solution/highfi/empty-group.png" alt="">
+                        <img src="/img/mm/solution/highfi/Create-new-user1.png" alt="">
+                        <img src="/img/mm/solution/highfi/Create-new-user2-filled-student.png" alt="">
+                        <img src="/img/mm/solution/highfi/Create-new-user3.png" alt="">
+                        <img src="/img/mm/solution/highfi/Profile-opened.png" alt="">
+                        <img src="/img/mm/solution/highfi/Manage-relations.png" alt="">
                     </div>
                 </article>
 
-                <!--Testing-->
-                <article id="testing">
+                <!--Testing
+                <article>
                     <h3>Testing</h3>
-                    <div class="textImg">
+                    <div>
                         <p>
                             We tested the usability of the project in 2 testing sessions (low-fi and high-fi) on <span
                                 style="font-weight: bold;">10 people</span> total,
@@ -291,6 +374,91 @@
                                 style="font-weight: bold;">video</span>.
                         </p>
                     </div>
+                </article>-->
+
+                <!--UX writing-->
+                <article>
+                    <h3>UX writing</h3>
+                    <div class="textImg">
+                        <div>
+                            <p>
+                                One of the crucial parts of making the administration panel easy to navigate for users
+                                (especially new ones) is good UX writing. <span style="font-weight: bold;">To ensure
+                                    clear communication</span> between users and the system <span
+                                    style="font-weight: bold;">I focused on the microcopy</span>.
+                            </p>
+                            <p>Good examples of it are the options in the hamburger menu for groups, where every feature
+                                starts with a different, actionable verb. Moreover, the scope of the feature behind the
+                                buttons is clear based on the name (e.g. export list of users)
+                            </p>
+                            <p>Another place where UX writing was important are the <span
+                                    style="font-weight: bold;">delete pop-ups</span>. The title shows what
+                                is being deleted to clearly communicate to the user what is happening and the
+                                description tells the consequences of
+                                continuing the admin. The buttons cancel give an option to exit, while delete group
+                                further confirms what will happen after clicking it.</p>
+                        </div>
+                        <img src="/img/mm/solution/Delete-group.png" alt="">
+                    </div>
+                </article>
+
+                <!--Onboarding-->
+                <article id="onboarding">
+                    <h3>Onboarding</h3>
+                    <div>
+                        <div>
+                            <p>
+                                Developing a comprehensive onboarding was essential to help new users quickly
+                                familiarize themselves with the system,
+                                <span style="font-weight: bold;">reducing the learning curve</span> and <span
+                                    style="font-weight: bold;">improving overall user satisfaction</span>.
+                            </p>
+                            <p>Before jumping into creating a guided tour for the administration panel, first I ensured
+                                that other types of onboarding
+                                are available to the users. I focused on <span style="font-weight: bold;">empty states,
+                                    onboarding on-demand</span> and only then planned <span
+                                    style="font-weight: bold;">guided tour</span> for the
+                                extreme users that would need it.</p>
+                        </div>
+                        <div>
+                            <!--On-demand-->
+                            <h5>On-demand onboarding</h5>
+                            <div class="Threepics">
+                                <img src="/img/mm/solution/Help-guides.png">
+                                <img src="/img/mm/solution/Help-guides-users.png">
+                                <img src="/img/mm/solution/tooltips-open.png">
+                                <img src="/img/mm/solution/on-demand-relation.png">
+                            </div>
+
+                            <!--Empty states-->
+                            <h5>Empty states</h5>
+                            <div class="Threepics">
+                                <img src="/img/mm/solution/onboarding-subgroup-empty.png">
+                                <img src="/img/mm/solution/empty-search.png">
+                            </div>
+
+                            <!--Tour-->
+                            <h5>Guided tour</h5>
+                            <div class="Threepics">
+                                <img src="/img/mm/solution/onboarding-start.png">
+                                <img src="/img/mm/solution/breadcrumbs.gif">
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!--Final prototype-->
+                <article id="Figma">
+                    <h3>Final Figma Prototype</h3>
+                    <p>
+                        Click the button to view the <span style="font-weight: bold;">final Figma prototype</span>
+                        including the <span style="font-weight: bold;">design system</span> and <span
+                            style="font-weight: bold;">onboarding tour</span>.
+                    </p>
+                    <a href="https://www.figma.com/design/vHwWqea63KOeI7OAI5EBrW/Mobilize-Me-Administration-Panel?node-id=2002-765&t=ZYcXCn8vcGoWljyN-1"
+                        target="_blank">
+                        <button class="secondary-cta">Figma</button>
+                    </a>
                 </article>
 
 
@@ -301,7 +469,20 @@
         <section id="conclusion">
             <h2>Reflection</h2>
             <ul>
-                <li>Here is <span style="font-weight: bold;">reflection</span></li>
+                <li>This project <span style="font-weight: bold;">taught me how to simplify complex systems</span> into
+                    solutions that are intuitive not only for the “regular users”
+                    but also extreme ones.</li>
+                <li>I’ve <span style="font-weight: bold;">learnt</span> how to implement <span
+                        style="font-weight: bold;">proper onboarding</span> that is more effective and subtle than a
+                    guided tour.</li>
+                <li>I was not able to reach out to potential customers, so I tested mostly on people who had no
+                    experience with
+                    administration panels, which was not ideal and was noticeable during testing. Therefore, <span
+                        style="font-weight: bold;">after
+                        launching</span> it, <span style="font-weight: bold;">feedback</span>
+                    from customers <span style="font-weight: bold;">should be gathered and more tests should be
+                        performed to further improve the product</span>.
+                </li>
             </ul>
         </section>
     </main>

@@ -132,6 +132,10 @@ article img {
   gap: 20px;
 }
 
+#flow img {
+  width: 40vw;
+}
+
 /*SECTIONS*/
 /*Banner*/
 #banner {
@@ -260,6 +264,30 @@ article img {
   font-size: 4vw;
   letter-spacing: normal;
   text-transform: capitalize;
+}
+
+#mm-old-solution img {
+  width: auto;
+  height: 19vw;
+}
+
+#mm-design-system img {
+  height: auto;
+  width: 23vw;
+}
+
+#mm-sketch-main {
+  height: auto;
+  width: 50%;
+}
+
+#onboarding .Threepics {
+  margin: 0;
+}
+
+#onboarding h5 {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 /*Overview*/
