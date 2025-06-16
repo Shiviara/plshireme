@@ -222,6 +222,12 @@
   margin: 0;
 }
 
+@media only screen and (max-width: 1100px) {
+  .mockR {
+    flex-direction: column-reverse;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   /*Hero*/
   #hero img {
@@ -250,9 +256,5 @@
 
   .project .description {
     width: 90vw;
-  }
-
-  .mockR {
-    flex-direction: column-reverse;
   }
 }
