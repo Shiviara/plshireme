@@ -54,12 +54,6 @@ li {
   background-color: var(--sage);
 }
 
-.note {
-  font-size: smaller;
-  color: #0046439c;
-  margin: 0;
-}
-
 /*Testimonials*/
 #testimonials {
   display: flex;
