@@ -28,7 +28,6 @@ const Footer = `
               <a href="mobilizeme.html">Mobilize Me</a>
               <a href="tcc.html">The Clothing Club</a>
               <a href="smukfest.html">Smukfest</a>
-              <a href="ecobites.html">EcoBites</a>
             </div>
         </div>
 `;
