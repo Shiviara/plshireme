@@ -22,7 +22,7 @@ setTimeout(function () {
           document.getElementById("speechBubble").textContent =
             "Come on! We don't have all day";
         }, 10000);
-      }, 1000);
+      }, 2000);
     }, 3000);
-  }, 2000);
-}, 4000);
+  }, 3000);
+}, 6000);
