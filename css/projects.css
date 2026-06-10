@@ -419,6 +419,33 @@ article img {
   }
 }
 
+/*PERSONAL PROJECTS*/
+
+/*banner*/
+.banner-pr {
+  color: black;
+  background-color: var(--sage);
+  height: 47vh !important;
+  padding-top: 170px !important;
+  position: relative;
+}
+
+.banner-pr p {
+  color: var(--truewhite);
+  /*font-family: "DM Sans", sans-serif;*/
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#title-pr {
+  text-shadow: none;
+  /*font-family: "DM Sans", sans-serif;*/
+  font-size: 4vw;
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
+
 @media only screen and (min-width: 900px) {
   #banner {
     height: 55vh;
