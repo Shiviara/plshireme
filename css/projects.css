@@ -421,8 +421,8 @@ article img {
 
 /*PERSONAL PROJECTS*/
 
-/*banner*/
-.banner-pr {
+/*3D animation*/
+.banner-3da {
   color: black;
   background-color: var(--sage);
   height: 47vh !important;
@@ -430,7 +430,7 @@ article img {
   position: relative;
 }
 
-.banner-pr p {
+.banner-3da p {
   color: var(--bottle);
   /*font-family: "DM Sans", sans-serif;*/
   font-style: normal;
@@ -438,10 +438,38 @@ article img {
   line-height: normal;
 }
 
-#title-pr {
+#title-3da {
   text-shadow: none;
   color: var(--bottle);
   /*font-family: "DM Sans", sans-serif;*/
+  font-size: 4vw;
+  letter-spacing: normal;
+  text-transform: capitalize;
+}
+
+/*Motion Graphics*/
+.banner-mg {
+  color: black;
+  background-color: #465bff;
+  height: auto !important;
+  padding: 12vw !important;
+  padding-top: 170px !important;
+  position: relative;
+}
+
+.banner-mg p {
+  color: var(--truewhite);
+  font-family: "Orbitron", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#title-mg {
+  text-shadow: none;
+  color: var(--truewhite);
+  font-family: "Climate Crisis", sans-serif;
+  font-weight: 400;
   font-size: 4vw;
   letter-spacing: normal;
   text-transform: capitalize;
