@@ -212,6 +212,10 @@
   height: auto;
 }
 
+#anim-mock-up {
+  width: 550px;
+}
+
 .info {
   display: flex;
   flex-direction: column;
