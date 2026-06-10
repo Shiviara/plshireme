@@ -431,7 +431,7 @@ article img {
 }
 
 .banner-pr p {
-  color: var(--truewhite);
+  color: var(--bottle);
   /*font-family: "DM Sans", sans-serif;*/
   font-style: normal;
   font-weight: 400;
@@ -440,6 +440,7 @@ article img {
 
 #title-pr {
   text-shadow: none;
+  color: var(--bottle);
   /*font-family: "DM Sans", sans-serif;*/
   font-size: 4vw;
   letter-spacing: normal;
