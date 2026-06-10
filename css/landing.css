@@ -212,8 +212,14 @@
   height: auto;
 }
 
+#personal .mock-up {
+  filter: drop-shadow(-15px 20px 0px var(--truewhite));
+  width: 415px;
+  height: auto;
+}
+
 #anim-mock-up {
-  width: 550px;
+  width: 550px !important;
 }
 
 .info {
